@@ -820,8 +820,3 @@
         </div>
     </div>
     <!-- Seller modal ends  -->
-
-
-<div class="bb">
-    <p>this is add</p>
-</div>
