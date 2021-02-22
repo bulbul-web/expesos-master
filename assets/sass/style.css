@@ -7558,7 +7558,127 @@ h1, h2, h3, h4, h5, h6{
 
 
 
+/*brand-shop start*/
+.image-area{
+    position: relative;
+    
+}
+.image-area img{
+    width: 100%;
+}
+.image-area .content-area{
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-shrink: 0;
+    padding: 18px 20px;
+    max-width: 1172px;
+    overflow: hidden;
+    line-height: 16px;
+}
 
+.content-area .shop-icon{
+    padding: 30px 0px;
+    margin-right: 10px;
+}
+.content-area .shop-icon i{
+    font-size: 30px;
+    color: #ef9b0f;
+}
+.company-info{
+    margin: 10px;
+    padding: 5px;
+}
+.company-info h4{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 5px;
+}
+.company-info h6{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    line-height: 15px;
+}
+.company-info p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+}
+.chat-shop{
+    padding: 10px 10px;
+}
+.chat-shop a{
+    text-align: center;
+}
+.chat-shop a .icon i{
+    color: darkgreen;
+    font-size: 22px;
+}
+.chat-shop a .text{
+    color: darkgreen;
+    font-size: 16px;
+    margin: 0;
+    line-height: 10px;
+}
+
+.follow{
+    padding: 10px 10px;
+}
+.follow a{
+    text-align: center;
+}
+.follow a .icon i{
+    color: darkgreen;
+    font-size: 22px;
+}
+.follow a .text{
+    color: darkgreen;
+    font-size: 16px;
+    margin: 0;
+    line-height: 10px;
+}
+
+a:hover .icon i, a:hover .text{
+    color: #ef9b0f;
+    transition: 0.5s;
+}
+.menu-shop{
+    padding: 10px;
+    background: #fff;
+}
+.menu-shop ul{
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+.menu-shop ul li{
+    list-style: none;
+    padding: 0px 10px;
+}
+.menu-shop ul li a{
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+}
+.menu-shop ul li a:hover{
+    color: rgb(239 155 15);
+    transition: 0.5s;
+}
+.shop-product-area .col-md-2{
+    margin: 10px 0px;
+}
+/*brand-shop end*/
 
 
 
