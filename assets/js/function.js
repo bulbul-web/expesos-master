@@ -503,6 +503,16 @@
             fixed_top.removeClass("fixed fadeInDown");
         }
     });
+    
+    //menu top fixed start for categoris menu
+    var fixed_menu = $(".menu-shop");
+    $(window).on('scroll', function () {
+        if ($(this).scrollTop() > 150) {
+            fixed_menu.addClass("fixed animated fadeInDown");
+        } else {
+            fixed_menu.removeClass("fixed fadeInDown");
+        }
+    });
 
 
     // signup form add

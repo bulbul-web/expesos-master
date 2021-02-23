@@ -99,7 +99,7 @@
                                 <div class="container">
                                 <div class="row">
                                     <div class="col-sm-6 col-12">
-                                        <a href="index.php" class="btn" style="text-align: left;"><span class="mr-2"><i class="fa fa-arrow-left" aria-hidden="true"></i> </span><span>Back to shop</span></a>
+                                        <a href="index.php" class="btn back-btn" style="text-align: left;"><span class="mr-2"><i class="fa fa-arrow-left" aria-hidden="true"></i> </span><span>Back to shop</span></a>
                                     </div>
                                     <div class="col-sm-6 col-12 text-right">
                                         <a href="#payment" class="btn"><span class="mr-2"><svg id="Component_99_2" data-name="Component 99 – 2" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"> <path id="Path_2111" data-name="Path 2111" d="M7.5,18h7.016" transform="translate(-6.663 -10.738)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/> <path id="Path_2112" data-name="Path 2112" d="M18,7.5l2.725,4.225L18,15.951" transform="translate(-11.214 -4.416)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/> <g id="Rectangle_1496" data-name="Rectangle 1496" fill="none" stroke="#fff" stroke-width="1"> <rect width="15" height="15" rx="2" stroke="none"/> <rect x="0.5" y="0.5" width="14" height="14" rx="1.5" fill="none"/> </g> </svg> </span><span>UPDATE</span></a>
@@ -113,7 +113,7 @@
                         </div> 
                     </div>
                     
-                    <div class="row">
+                    <div class="row row-mdle">
                         <div class="col-sm-4 col-12">
                             <div class="accordion" id="accordionExample">
                         
