@@ -147,7 +147,7 @@
                         </div>
                         <div class="search-bar">
                            <div class="d-flex">
-                                <input type="text" name="search" id="search_bar" placeholder="Search..." />
+                                <input type="text" name="search" id="search_bar" placeholder="search for anything..." />
                                 <button type="submit"><span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 48 49.717"><path id="search" d="M48.254,45.285,36.421,32.978a20.065,20.065,0,1,0-15.364,7.169,19.858,19.858,0,0,0,11.5-3.632l11.923,12.4a2.618,2.618,0,1,0,3.774-3.63ZM21.057,5.237A14.837,14.837,0,1,1,6.221,20.073,14.853,14.853,0,0,1,21.057,5.237Z" transform="translate(-0.984)" fill="#F8DA48"/></svg></span></button>
                            </div>
                         </div>
@@ -202,7 +202,7 @@
                         <form action="">
                             <div class="flex-width">
                                 <div class="input-group">
-                                    <input type="text" name="search" class="form-control" placeholder="Explore Info..." />
+                                    <input type="text" name="search" class="form-control" placeholder="search for anything..." />
                                 </div>
                                 <div class="input-btn">
                                     <button type="button" class="btn"><span><i class="fa fa-search"></i></span></button>

@@ -136,7 +136,7 @@
 
                     </div>
                         </div>
-                        <div class="col-sm-5 col-12">
+                        <div class="col-sm-5 col-12 bg-white">
                             <div class="cart-price mt-4">
                                 <div class="price-titel">
                                     <h6>PRICE DETAILS</h6>

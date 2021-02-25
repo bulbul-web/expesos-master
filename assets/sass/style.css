@@ -8085,6 +8085,24 @@ label.star:before {
     border-color: #ef9b0f;
 }
 
+.min-height#myTabContent{
+    min-height: 917px;
+}
+.update-btn-area{
+    margin: 9px;
+    margin-left: 20%;
+    width: auto;
+}
+.cart-price.cart-price-own{
+    padding-bottom: 10px;
+}
+.cart-price.cart-price-own .btn{
+    margin: 0 auto;
+    width: 95%;
+}
+.section-wrapper .bg-white{
+    background: #fff;
+}
 @media screen and (max-width: 768px){
     .image-area .content-area{
         position: relative;
@@ -8092,9 +8110,17 @@ label.star:before {
     .brand-header .menu-shop.fixed{
         top: 61px;
     }
+    .min-height#myTabContent {
+        min-height: auto;
+    }
 }
 
 @media screen and (max-width: 439px){
+    .update-btn-area {
+        margin: 9px;
+        margin-left: 4%;
+        width: auto;
+    }
     .brand-header .menu-shop.fixed{
         top: 107px;
         background: #f9f9f9;

@@ -207,7 +207,7 @@
                                                 <div class="d-flex flex-column flex-sm-row">
                                                     
                                                     <button class="btn btn-info mr-0 mr-sm-1 mb-2 mb-sm-0"><i class="fa fa-shopping-cart mr-2"></i>ADD TO CART</button>
-                                                    <button class="btn btn-outline-danger"><i class="fa fa-heart mr-2"></i>WISHLIST</button>
+                                                    <button class="btn btn-outline-danger"><i class="fa fa-heart mr-2"></i>Buy Now</button>
                                                 </div>
                                                 <hr>
                                                 <div class="product_meta">
@@ -245,7 +245,7 @@
                                                             <a class="nav-link" id="policy-tab" data-toggle="tab" href="#policy" role="tab" aria-controls="policy" aria-selected="false">Store Policy</a>
                                                         </li>
                                                     </ul>
-                                                    <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-content min-height" id="myTabContent">
                                                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                                                             <div class="tabcontent">
                                                                 <div class="post-text">
