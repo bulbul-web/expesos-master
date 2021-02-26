@@ -27,19 +27,13 @@
                                         </div>
                                         <div class="input-group d-flex justify-content-between align-items-center mb-2">
                                             <div class="text-left">
-<!--
                                                 <div class="checkbox">
                                                     <div class="vs-checkbox-con vs-checkbox-primary">
                                                         <input type="checkbox">
-                                                        <span class="vs-checkbox">
-                                                            <span class="vs-checkbox--check">
-                                                                <i class="vs-icon fa fa-check"></i>
-                                                            </span>
-                                                        </span>
+                                                        
                                                         <span class="text-dark">Remember me</span>
                                                     </div>
                                                 </div>
--->
                                             </div>
                                             <div class="text-right"><a href="forget-password.html" class="card-link text-primary">Forgot Password?</a></div>
                                         </div>
@@ -49,7 +43,7 @@
                                             <button type="button" class="btn btn-google"><span class="mr-2"><i class="fa fa-google"></i></span><span>Login with Google</span></button>
                                         </div>
                                         <div class="text-center mt-4">
-                                            <p>If you don't have an user account yet, please create an account to <a href="sign-up.html" class="card-link text-info">register</a></p>
+                                            <p>If you don't have an user account yet, please create an account to <a href="customer-registration.php" class="card-link text-info">register</a></p>
                                         </div>
                                     </form>
                                 </div>
@@ -58,9 +52,16 @@
                     </div>
                     <div class="col-md-6 col-12">
                         <div class="creat-xpesos">
-                            <h4>Create your xpesos account</h4>
-                            <p>Create your xpesos customer account in just a few clicks! You can register either using your e-mail address or through your Facebook account.</p>
-                            <img src="assets/images/logo/logo.png" alt="">
+                            <h4>Sign up today to get up to 10% Off your first order!</h4>
+                            <img src="./assets/images/Product-Page-Banner2.jpg"/>
+                            <div class="shipping-area">
+                                <ul class="mf-shipping-info">
+                                    <li><i class="fa fa-globe" aria-hidden="true"></i> Shipping to Africa &amp; UK</li>
+                                    <li><i class="fa fa-truck" aria-hidden="true"></i>Free 18-day return if eligible, so easy </li>
+                                    <li><i class="fa fa-file-text-o" aria-hidden="true"></i>Supplier give bills for this product.</li>
+                                    <li><i class="fa fa-credit-card" aria-hidden="true"></i>Pay online or when receiving goods</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -8103,6 +8103,39 @@ label.star:before {
 .section-wrapper .bg-white{
     background: #fff;
 }
+.seller-details .own-form-control {
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    appearance: auto;
+    border-color: #ef9b0f;
+    background: none;
+    color: #ef9b0f;
+}
+.form-check-input[type=radio]{
+    border-color: #ef9b0f;
+}
+.nav-tabs .form-check-input:focus{
+    border-color: #8bbafe;
+    outline: 0;
+    box-shadow: none;
+    border: 7px solid #ef9b0f;
+}
+.own-custom-file{
+        padding: 24px;
+    border: 1px dashed #ef9b0f;
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 16px;
+    background: rgba(0,0,0,.02);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.seller-details .custom-file.own-custom-file .custom-file-input{
+    height: auto;
+    width: auto;
+    border: none;
+}
 @media screen and (max-width: 768px){
     .image-area .content-area{
         position: relative;

@@ -48,9 +48,12 @@
                                         </div>
                                         <div class="input-btn">
                                             <button type="submit" class="btn mb-3"><i class="fa fa-user-plus mr-1 text-white"></i><span>Register</span></button>
-                                                <p><a href="{{ url('/seller-registration') }}">Become a vendor</a></p>
+                                                <p><a href="vendor-registration.php" style="color: #ef9b0f; font-weight: bold;">Become a vendor</a></p>
                                             <button type="button" class="btn btn-facebook mb-3"><span class="mr-2"> <a href="https://xpesos.com/Social-Login/auth/redirect/facebook"><i class="fa fa-facebook-official"></i></span><span>Login with Facebook</span></a></button>
                                             <button type="button" class="btn btn-google"><span class="mr-2"><a href="https://xpesos.com/Social-Login/auth/google"> <i class="fa fa-google"></i></span><span>Login with Google</span></a></button>
+                                        </div>
+                                        <div class="text-center mt-4">
+                                            <p>you already have an account in xpesos please <a href="login-xpesos.php" class="card-link text-info">sign in</a></p>
                                         </div>
                                     </div>
                                 </form>
@@ -59,11 +62,17 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-12">
-                    <div class="creat-xpesos style-one">
-                        <h4>Create your xpesos account</h4>
-                        <p>Create your xpesos customer account in just a few clicks! You can register either using your e-mail address or through your Facebook account.</p>
-                        <img src="{{ url('admin/'.$setting->photo) }}" alt="">
-
+                    <div class="creat-xpesos">
+                        <h4>Sign up today to get up to 10% Off your first order!</h4>
+                        <img src="./assets/images/Product-Page-Banner2.jpg"/>
+                        <div class="shipping-area">
+                            <ul class="mf-shipping-info">
+                                <li><i class="fa fa-globe" aria-hidden="true"></i> Shipping to Africa &amp; UK</li>
+                                <li><i class="fa fa-truck" aria-hidden="true"></i>Free 18-day return if eligible, so easy </li>
+                                <li><i class="fa fa-file-text-o" aria-hidden="true"></i>Supplier give bills for this product.</li>
+                                <li><i class="fa fa-credit-card" aria-hidden="true"></i>Pay online or when receiving goods</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

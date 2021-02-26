@@ -182,7 +182,7 @@
                                       
                                     
                                     <a class="dropdown-item" href="#0" data-toggle="modal" data-target="#exampleModal">Signin</a>
-                                    <a class="dropdown-item" href="login-xpesos.php">Signup</a>
+                                    <a class="dropdown-item" href="customer-registration.php">Signup</a>
 
                                     
                                     </div>

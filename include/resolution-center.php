@@ -41,11 +41,31 @@
                             </div>
                        </div>
                        <h4 class="mt-4 border-bottom">I am contacting XPesos regarding:</h4>
-                       <h6 class="mt-4">Reason for products and brand claim**</h6>
+                       <h6 class="mt-4">What is you reason for contacting?*</h6>
+                       <div class="col-8">
+                            <div class="input-group mb-4">
+                                <select  name="name" class="form-control own-form-control" required>
+                                    <option value='Return an Item for a refund'>Return an Item for a refund</option>
+                                    <option value='Check the status of a return or missing item'>Check the status of a return or missing item</option>
+                                    <option value='I did not receive my item'>I did not receive my item</option>
+                                    <option value='Appeal xpesos decision for about a return or missing item'>Appeal xpesos decision for about a return or missing item</option>
+                                    <option value='My order got broken intransit'>My order got broken intransit</option>
+                                    <option value='Item delivered is not as described'>Item delivered is not as described</option>
+                                    <option value='My XPesos Business account'>My XPesos Business account</option>
+                                    <option value='My Seller Center account'>My Seller Center account</option>
+                                    <option value='My product returns'>My product returns</option>
+                                    <option value='Ask xpesos to step in for help'>Ask xpesos to step in for help</option>
+                                    <option value='My account limitations and penalties'>My account limitations and penalties</option>
+                                    <option value='Others'>Others</option>
+                                </select>
+                            </div>
+                            
+                       </div>
+                       <h6 class="mt-4">Reason for products and brand claim*</h6>
 
                        <nav>
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <a class="nav-link active" id="nav-job-brand" data-toggle="tab" href="#nav-brand" role="tab" aria-controls="nav-brand" aria-selected="true">
+                                <a class="nav-link" id="nav-job-brand" data-toggle="tab" href="#nav-brand" role="tab" aria-controls="nav-brand" aria-selected="true">
                                     <div class="input-group">
                                         <div class="checkbox">
                                             <div class="form-check">
@@ -89,17 +109,13 @@
                         </nav>
 
                         <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active"  id="nav-brand" role="tabpanel" aria-labelledby="nav-brand-tab">
+                            <div class="tab-pane fade"  id="nav-brand" role="tabpanel" aria-labelledby="nav-brand-tab">
                                 <h4 class="mt-4">My Brand</h4>
                                 <div class="input-group">
                                     <div class="checkbox">
                                         <div class="vs-checkbox-con vs-checkbox-primary">
                                             <input type="checkbox">
-                                            <span class="vs-checkbox">
-                                                <span class="vs-checkbox--check">
-                                                    <i class="vs-icon fa fa-check"></i>
-                                                </span>
-                                            </span>
+                                            
                                             <span class="text-dark">I want to contest clients review</span>
                                         </div>
                                     </div>
@@ -108,11 +124,7 @@
                                     <div class="checkbox">
                                         <div class="vs-checkbox-con vs-checkbox-primary">
                                             <input type="checkbox">
-                                            <span class="vs-checkbox">
-                                                <span class="vs-checkbox--check">
-                                                    <i class="vs-icon fa fa-check"></i>
-                                                </span>
-                                            </span>
+                                            
                                             <span class="text-dark">I want to customer review</span>
                                         </div>
                                     </div>
@@ -124,12 +136,8 @@
                                     <div class="checkbox">
                                         <div class="vs-checkbox-con vs-checkbox-primary">
                                             <input type="checkbox">
-                                            <span class="vs-checkbox">
-                                                <span class="vs-checkbox--check">
-                                                    <i class="vs-icon fa fa-check"></i>
-                                                </span>
-                                            </span>
-                                            <span class="text-dark">I want to contest customer review</span>
+                                            
+                                            <span class="text-dark">The shooting of my products is late: why?</span>
                                         </div>
                                     </div>
                                 </div>
@@ -137,44 +145,116 @@
                                     <div class="checkbox">
                                         <div class="vs-checkbox-con vs-checkbox-primary">
                                             <input type="checkbox">
-                                            <span class="vs-checkbox">
-                                                <span class="vs-checkbox--check">
-                                                    <i class="vs-icon fa fa-check"></i>
-                                                </span>
-                                            </span>
-                                            <span class="text-dark">I want to customer review</span>
+                                            
+                                            <span class="text-dark">The quality check of my product(s) is late: why?</span>
                                         </div>
                                     </div>
                                 </div>
+                                
+                                <div class="input-group">
+                                    <div class="checkbox">
+                                        <div class="vs-checkbox-con vs-checkbox-primary">
+                                            <input type="checkbox">
+                                            
+                                            <span class="text-dark">My products have been rejected: why?</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="input-group">
+                                    <div class="checkbox">
+                                        <div class="vs-checkbox-con vs-checkbox-primary">
+                                            <input type="checkbox">
+                                            
+                                            <span class="text-dark">I want to request a shooting for my product(s)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="input-group">
+                                    <div class="checkbox">
+                                        <div class="vs-checkbox-con vs-checkbox-primary">
+                                            <input type="checkbox">
+                                            
+                                            <span class="text-dark">My product was delisted and I want it live again</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="input-group">
+                                    <div class="checkbox">
+                                        <div class="vs-checkbox-con vs-checkbox-primary">
+                                            <input type="checkbox">
+                                            
+                                            <span class="text-dark">I want to request a quality check for my product(s)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="input-group">
+                                    <div class="checkbox">
+                                        <div class="vs-checkbox-con vs-checkbox-primary">
+                                            <input type="checkbox">
+                                            
+                                            <span class="text-dark">I have trouble creating my product(s)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="input-group">
+                                    <div class="checkbox">
+                                        <div class="vs-checkbox-con vs-checkbox-primary">
+                                            <input type="checkbox">
+                                            
+                                            <span class="text-dark">I want to report a wrong image appearing on my product page</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="input-group">
+                                    <div class="checkbox">
+                                        <div class="vs-checkbox-con vs-checkbox-primary">
+                                            <input type="checkbox">
+                                            
+                                            <span class="text-dark">I want to know which of my new products were rejected</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="input-group">
+                                    <div class="checkbox">
+                                        <div class="vs-checkbox-con vs-checkbox-primary">
+                                            <input type="checkbox">
+                                            
+                                            <span class="text-dark">I want to understand why some of my products don't appear online</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="input-group">
+                                    <div class="checkbox">
+                                        <div class="vs-checkbox-con vs-checkbox-primary">
+                                            <input type="checkbox">
+                                            
+                                            <span class="text-dark">I want to create a new product</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                             </div>
                             <div class="tab-pane fade"  id="nav-orders" role="tabpanel" aria-labelledby="nav-orders-tab">
                                 <h4 class="mt-4">Product modification</h4>
+                                
                                 <div class="input-group">
                                     <div class="checkbox">
                                         <div class="vs-checkbox-con vs-checkbox-primary">
                                             <input type="checkbox">
-                                            <span class="vs-checkbox">
-                                                <span class="vs-checkbox--check">
-                                                    <i class="vs-icon fa fa-check"></i>
-                                                </span>
-                                            </span>
-                                            <span class="text-dark">I want to contest customer review</span>
+                                            
+                                            <span class="text-dark">I want to request a modification of my product(s)</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="input-group">
-                                    <div class="checkbox">
-                                        <div class="vs-checkbox-con vs-checkbox-primary">
-                                            <input type="checkbox">
-                                            <span class="vs-checkbox">
-                                                <span class="vs-checkbox--check">
-                                                    <i class="vs-icon fa fa-check"></i>
-                                                </span>
-                                            </span>
-                                            <span class="text-dark">I want to customer review</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </div>
                              <div class="tab-pane fade"  id="nav-reviews" role="tabpanel" aria-labelledby="nav-reviews-tab">
                                 <h4 class="mt-4">Rating and review</h4>
@@ -182,34 +262,18 @@
                                     <div class="checkbox">
                                         <div class="vs-checkbox-con vs-checkbox-primary">
                                             <input type="checkbox">
-                                            <span class="vs-checkbox">
-                                                <span class="vs-checkbox--check">
-                                                    <i class="vs-icon fa fa-check"></i>
-                                                </span>
-                                            </span>
-                                            <span class="text-dark">I want to contest clients review</span>
+                                            
+                                            <span class="text-dark">I want to contest customer review</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="input-group">
-                                    <div class="checkbox">
-                                        <div class="vs-checkbox-con vs-checkbox-primary">
-                                            <input type="checkbox">
-                                            <span class="vs-checkbox">
-                                                <span class="vs-checkbox--check">
-                                                    <i class="vs-icon fa fa-check"></i>
-                                                </span>
-                                            </span>
-                                            <span class="text-dark">I want to customer review</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
 
 
                         <h4 class="mt-4">Additional documents</h4>
-                        <div class="custom-file">
+                        <div class="custom-file own-custom-file">
                             <input type="file" class="custom-file-input" id="validatedCustomFile" required>
                             <div class="invalid-feedback">Example invalid custom file feedback</div>
                         </div>
