@@ -18,12 +18,12 @@
     <!-- full page contetn  -->
     <section class="product-link">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header" id="bgCategoryArea">
                 <h4>Xpesos Products by Category</h4>
             </div>
             <div class="section-wrapper">
                 <div class="content-menu">
-                    <ul class="menu-list">
+                    <ul class="menu-list menu-list-cat">
                         <li class="active"><a href="#menu-one"><span><i class="fa fa-dot-circle-o"></i></span><p>Agriculture &amp; Food</p></a></li>
                         <li><a href="#menu-two"><span><i class="fa fa-dot-circle-o"></i></span><p>Apparel,Textiles &amp; Accessories</p></a></li>
                         <li><a href="#menu-three"><span><i class="fa fa-dot-circle-o"></i></span><p>Auto &amp; Transportation</p></a></li>

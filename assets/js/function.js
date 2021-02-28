@@ -134,7 +134,7 @@
 	  var galleryTop = new Swiper('.gallery-top', {
 		spaceBetween: 10,
 		autoplay: true,
-          loop: true,
+          loop: false,
 		navigation: {
 		  nextEl: '.product-button-next',
 		  prevEl: '.product-button-prev',
@@ -147,11 +147,10 @@
 
     // recent viewed items slider
     var swiper = new Swiper('.recent-viewed-slider', {
-        loop: true,
+        loop: false,
       slidesPerView: 2.5,
       spaceBetween: 15,
       autoplay: false,
-        loop: true,
       navigation: {
           nextEl: '.recent-button-next',
           prevEl: '.recent-button-prev',
@@ -177,7 +176,7 @@
         slidesPerView: 2.5,
         spaceBetween: 15,
         autoplay: false,
-        loop: true,
+        loop: false,
         navigation: {
             nextEl: '.trending-button-next',
             prevEl: '.trending-button-prev',
@@ -203,7 +202,7 @@
       slidesPerView: 2.5,
       spaceBetween: 15,
       autoplay: false,
-        loop: true,
+        loop: false,
       navigation: {
           nextEl: '.electronic-button-next',
           prevEl: '.electronic-button-prev',
@@ -229,7 +228,7 @@
       slidesPerView: 2.5,
       spaceBetween: 15,
       autoplay: false,
-        loop: true,
+        loop: false,
       navigation: {
           nextEl: '.fashion-button-next',
           prevEl: '.fashion-button-prev',
@@ -255,7 +254,7 @@
       slidesPerView: 2.5,
       spaceBetween: 15,
       autoplay: false,
-        loop: true,
+        loop: false,
       navigation: {
           nextEl: '.frequent-button-next',
           prevEl: '.frequent-button-prev',
@@ -281,7 +280,7 @@
       slidesPerView: 2.5,
       spaceBetween: 15,
       autoplay: false,
-        loop: true,
+        loop: false,
       navigation: {
           nextEl: '.top-selling-button-next',
           prevEl: '.top-selling-button-prev',
@@ -307,7 +306,7 @@
         slidesPerView: 2.5,
         spaceBetween: 15,
         autoplay: false,
-        loop: true,
+        loop: false,
         navigation: {
             nextEl: '.offered-button-next',
             prevEl: '.offered-button-prev',
@@ -334,7 +333,7 @@
 		speed:1000,
 		autoplay:1000,
 		autoplay:true,
-		loop: true,
+		loop: false,
 		freeMode: true,
 		breakpoints: {
 			1024: {
@@ -571,8 +570,20 @@
 
   // all product link add active class
   $(document).on('click', '.menu-list li', function(){
-    $(this).addClass('active').siblings().removeClass('active')
-  })
+    $(this).addClass('active').siblings().removeClass('active');
+//    $(".menu-list-cat").addClass('fixed-cat-menu animated fadeInDown');
+  });
+    
+    //menu top fixed start for categoris menu
+//    var fixed_menu = $(".menu-list-cat");
+//    var top_position = $(".product-all-sublink");
+//    $(window).on('scroll', function () {
+//        if ($(this).scrollTop() > 150) {
+//            fixed_menu.addClass("fixed-cat-menu animated fadeInDown");
+//        }else{
+//            fixed_menu.removeClass("fixed-cat-menu fadeInDown");
+//        }
+//    });
 
 })(jQuery);
 

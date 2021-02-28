@@ -8111,6 +8111,19 @@ label.star:before {
     background: none;
     color: #ef9b0f;
 }
+.fixed-cat-menu{
+    position: fixed;
+    background: #fff;
+    top: 0px;
+    z-index: 999;
+    width: auto;
+    right: 0;
+    box-shadow: 0px 2px 10px #716c80;
+}
+.top_position{
+    position: relative;
+    top: 131px;
+}
 .form-check-input[type=radio]{
     border-color: #ef9b0f;
 }
