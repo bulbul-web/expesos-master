@@ -327,6 +327,32 @@
         },
     });
 
+    // feedback-slider
+    var swiper = new Swiper('.feedback-slider', {
+        slidesPerView: 1,
+        spaceBetween: 15,
+        autoplay: false,
+        loop: false,
+        navigation: {
+            nextEl: '.feedback-button-next',
+            prevEl: '.feedback-button-prev',
+        },
+        breakpoints: {
+            575: {
+                slidesPerView: 1,
+            },
+            640: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 1,
+            },
+            1024: {
+              slidesPerView: 1,
+            },
+        },
+    });
+
     //sponser slider activation
 	var swiper = new Swiper('.sponsor-container', {
 		slidesPerView: 1,
