@@ -18,6 +18,8 @@
 <link rel="stylesheet" href="assets/sass/style.css">
 <!-- seller-profile css hear -->
 <link rel="stylesheet" href="assets/sass/seller-profile.css">
+<!-- seller-profile css hear -->
+<link rel="stylesheet" href="assets/sass/seller-product-view.css">
 
 <link rel="stylesheet" href="assets/css/app-ecommerce-details.css">
 <link rel="stylesheet" href="assets/css/app-ecommerce-shop.css">

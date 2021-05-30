@@ -1,0 +1,85 @@
+.upload-view{
+	margin: 40px 0px;
+}
+.upload-view .shop-confidence{
+	border: 1px solid black;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.upload-view .shop-confidence h3{
+	font-size: 16px;
+}
+.shop-confidence .content i{
+	float: left;
+	margin: 10px 0px;
+	padding: 10px;
+	color: #ef9b0f;
+	font-size: 26px;
+	margin-right: 10px;
+}
+.shop-confidence .content h5{
+	margin: 0px;
+	padding: 0px;
+}
+.shop-confidence .content p{
+	margin:0px ;
+	padding: 0px;
+	font-size: 14px;
+}
+
+.seller-information{
+	border: 1px solid black;
+	margin: 20px 0px;
+	padding: 10px;
+}
+.seller-information h5{
+	font-weight: bold;
+}
+.seller-information p.seller-name{
+	font-weight: bold;
+	margin: 0px;
+}
+.seller-information p.seller-name i{
+	color: #ef9b0f;
+}
+.bid-form .own-btn{
+	width: 100%;
+	margin: 10px 0px;
+	border-radius: 3px;
+}
+.listing-descript-content{
+	border: 1px solid black;
+}
+p.discip-head{
+	font-weight: bold;
+	font-size: 18px;
+}
+.listing-descript-content{
+	padding: 15px;
+	margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

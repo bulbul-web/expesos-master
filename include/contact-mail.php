@@ -302,7 +302,6 @@
                                     <li><a href="#"><i class="fa fa-bookmark"></i> Important</a></li>
                                     <li><a href="#"><i class="fa fa-mail-forward"></i> Sent</a></li>
                                     <li><a href="#"><i class="fa fa-pencil-square-o"></i> Drafts</a></li>
-                                    <li><a href="#"><i class="fa fa-folder"></i> Spam (217)</a></li>
                                 </ul>
                             </div>
                         </div>
