@@ -314,7 +314,7 @@
                                     <label style="margin-right: 8px;" class="">
                                         <div class="icheckbox_square-blue" style="position: relative;"><input type="checkbox" id="check-all" class="icheck" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
                                     </label>
-                                    <div class="btn-group">
+                                    <div class="btn-group btn-group-own-mail">
                                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                                             Action <span class="caret"></span>
                                         </button>
@@ -459,7 +459,7 @@
                                                     <input name="bcc" type="email" class="form-control" placeholder="Bcc">
                                                 </div>
                                                 <div class="form-group">
-                                                    <input name="subject" type="email" class="form-control" placeholder="Subject">
+                                                    <input name="subject" type="text" class="form-control" placeholder="Subject">
                                                 </div>
                                                 <div class="form-group">
                                                     <textarea name="message" id="email_message" class="form-control" placeholder="Message" style="height: 120px;"></textarea>

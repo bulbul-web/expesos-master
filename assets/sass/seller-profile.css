@@ -264,6 +264,7 @@ p.company-details span i{
 }
 .seller-category{
 	margin: 50px 0px;
+	min-height: 450px;
 }
 .seller-add-page{
 	margin: 50px 0px;
@@ -300,6 +301,13 @@ ul.checkbox-ul li{
 	padding: 10px;
 	border: 1px solid gray;
 }
+.blank-search{
+	padding: 25px 5px;
+	min-height: 450px;
+}
+.page-header .page-linker {
+    padding: 10px 0;
+}
 @media screen and (max-width: 991px){
 	.arrow.active-arrow{
 		display: block;
@@ -315,9 +323,40 @@ ul.checkbox-ul li{
 	}
 }
 @media screen and (max-width: 439px){
+	.payment-icon-a-link{
+		display: block;
+	}
+	.blank-search{
+		padding: 0px;
+		min-height: auto;
+	}
+	.payment-icon-a-link a img{
+		width: 40px;
+		margin-left: 1px;
+	}
+	.upload-view{
+		margin: 0px;
+	}
+	.product-variation .product-container.gallery-top .swiper-wrapper .swiper-slide .thumb{
+		padding-top: 0px; 
+	}
+	.seller-category{
+		min-height: auto;
+	}
+	.inbox .email h2{
+		font-size: 27px;
+	}
 	.menu-details .review .review-tab-content .tabcontent .post-text h4{
 		font-size: 14px;
 		font-weight: bold;
+	}
+	.btn-group-own-mail button{
+		width: 100%;
+		border-radius: 2px;
+		margin-bottom: 10px;
+	}
+	.table-responsive table tr td{
+		float: left;
 	}
 	.menu-details .review .review-tab-content .tabcontent{
 		margin-top: -10px;

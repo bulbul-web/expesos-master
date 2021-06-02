@@ -160,11 +160,13 @@
                                                     </span>
                                                     <span class="posted_in"><strong>Delivery: </strong>Varies</span><br>
                                                     <span class="tagged_as"><strong>Payments: </strong>
-                                                        <a href="#" rel="tag"><img src="assets/images/footer/02.png" alt=""></a>, <a href="#" rel="tag"><img src="assets/images/footer/01.png" alt=""></a>, 
-                                                        <a href="#" rel="tag"><img src="assets/images/footer/03.png" alt=""></a>, 
-                                                        <a href="#" rel="tag"><img src="assets/images/footer/04.png" alt=""></a>, 
-                                                        <a href="#" rel="tag"><img src="assets/images/footer/05.png" alt=""></a>, 
-                                                        <a href="#" rel="tag"><img src="assets/images/footer/06.png" alt=""></a>
+                                                        <div class="payment-icon-a-link">
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/02.png" alt=""></a> <a href="#" rel="tag"><img src="assets/images/footer/01.png" alt=""></a> 
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/03.png" alt=""></a> 
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/04.png" alt=""></a> 
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/05.png" alt=""></a> 
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/06.png" alt=""></a>
+                                                        </div>
                                                     </span>
                                                     <span class="sku_wrapper">
                                                     <strong>Returns: </strong>

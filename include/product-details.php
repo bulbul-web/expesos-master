@@ -15,7 +15,7 @@
     <!-- page header ends  -->
 
     <!-- product details start -->
-    <section class="product-details pt-3 pb-5">
+    <section class="product-details pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
