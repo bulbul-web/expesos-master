@@ -193,8 +193,87 @@
                                 <li>
                                     <a href="cart.php"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 30 30"><defs><clipPath id="clip-path"><rect width="30" height="30" fill="none"/></clipPath></defs><g id="shopping-cart" clip-path="url(#clip-path)"><g id="Group_19" data-name="Group 19"><path id="Path_12" data-name="Path 12" d="M29.737,6.819a1.172,1.172,0,0,0-.909-.433H7.6l-.087-.8,0-.026A6.412,6.412,0,0,0,1.172,0a1.172,1.172,0,0,0,0,2.344A4.062,4.062,0,0,1,5.186,5.855l1.393,12.8a3.521,3.521,0,0,0-2.067,3.2c0,.01,0,.02,0,.029s0,.02,0,.029A3.52,3.52,0,0,0,8.027,25.43H8.5a3.457,3.457,0,1,0,6.546,0h5.055a3.457,3.457,0,1,0,3.273-2.344H8.027a1.173,1.173,0,0,1-1.172-1.172c0-.01,0-.02,0-.029s0-.02,0-.029a1.173,1.173,0,0,1,1.172-1.172H22.988A5.366,5.366,0,0,0,27.852,17.4a1.172,1.172,0,0,0-2.146-.942,3.064,3.064,0,0,1-2.718,1.877H8.9L7.857,8.73h19.53l-.573,2.749a1.172,1.172,0,1,0,2.294.479l.868-4.16A1.172,1.172,0,0,0,29.737,6.819ZM23.379,25.43a1.113,1.113,0,1,1-1.113,1.113A1.115,1.115,0,0,1,23.379,25.43Zm-11.6,0a1.113,1.113,0,1,1-1.113,1.113A1.115,1.115,0,0,1,11.777,25.43Z" fill="#474747"/></g></g></svg></span><span class="item-crount">4</span></a>
                                 </li>
+                                <li>
+                                    <div class="notification-nav">
+                        <div class="icon" onclick="toggleNotifi()">
+                            <img src="assets/images/bell.png" alt=""> <span>17</span>
+                        </div>
+                        <div class="notifi-box" id="box">
+                            <h2>Notifications <span>17</span></h2>
+                            <div class="notifi-item">
+                                <img src="assets/images/feature/55.jpg" alt="img">
+                                <div class="text">
+                                   <h4>Elias Abdurrahman</h4>
+                                   <p>@lorem ipsum dolor sit amet</p>
+                                </div> 
+                            </div>
+
+                            <div class="notifi-item">
+                                <img src="assets/images/feature/55.jpg" alt="img">
+                                <div class="text">
+                                   <h4>John Doe</h4>
+                                   <p>@lorem ipsum dolor sit amet</p>
+                                </div> 
+                            </div>
+
+                            <div class="notifi-item">
+                                <img src="assets/images/feature/55.jpg" alt="img">
+                                <div class="text">
+                                   <h4>Emad Ali</h4>
+                                   <p>@lorem ipsum dolor sit amet</p>
+                                </div> 
+                            </div>
+
+                            <div class="notifi-item">
+                                <img src="assets/images/feature/55.jpg" alt="img">
+                                <div class="text">
+                                   <h4>Ekram Abu </h4>
+                                   <p>@lorem ipsum dolor sit amet</p>
+                                </div> 
+                            </div>
+
+                            <div class="notifi-item">
+                                <img src="assets/images/feature/55.jpg" alt="img">
+                                <div class="text">
+                                   <h4>Ekram Abu </h4>
+                                   <p>@lorem ipsum dolor sit amet</p>
+                                </div> 
+                            </div>
+
+                            <div class="notifi-item">
+                                <img src="assets/images/feature/55.jpg" alt="img">
+                                <div class="text">
+                                   <h4>Ekram Abu </h4>
+                                   <p>@lorem ipsum dolor sit amet</p>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+                                </li>
                            </ul>
+
                        </div>
+                       
+                    <script type="text/javascript">
+                        var box  = document.getElementById('box');
+                        var down = false;
+
+
+                        function toggleNotifi(){
+                            if (down) {
+                                box.style.height  = '0px';
+                                box.style.opacity = 0;
+                                box.style.display = 'none';
+                                down = false;
+                            }else {
+                                box.style.height  = '510px';
+                                box.style.opacity = 1;
+                                box.style.display = 'block';
+                                down = true;
+                            }
+                        }
+                    </script>
                     </div>
                 </div>
                 <div class="header-serch d-lg-none">

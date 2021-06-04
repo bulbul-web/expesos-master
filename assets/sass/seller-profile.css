@@ -1,3 +1,94 @@
+.notification-nav {
+	display: flex;
+	align-items: center;
+	height: 60px;
+	position: relative;
+}
+.icon {
+	cursor: pointer;
+	margin-right: 50px;
+	line-height: 60px;
+}
+.icon span {
+	background: #ef9b0f;
+    padding: 2px;
+    border-radius: 50%;
+    color: #fff;
+    vertical-align: top;
+    margin-left: -25px;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    top: -8px;
+    right: -8px;
+    position: relative;
+}
+.icon img {
+	display: inline-block;
+	width: 32px;
+	margin-top: 00px;
+}
+.icon:hover {
+	opacity: .7;
+}
+
+.logo {
+	flex: 1;
+	margin-left: 50px;
+	color: #eee;
+	font-size: 20px;
+	font-family: monospace;
+}
+
+.notifi-box {
+	width: 300px;
+	height: 0px;
+	opacity: 1;
+	display: none;
+	position: absolute;
+	top: 63px;
+	right: 35px;
+	transition: 1s opacity, 250ms height;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background: #fff;
+    z-index: 999;
+    overflow: auto;
+}
+.notifi-box h2 {
+	font-size: 14px;
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+	color: #999;
+}
+.notifi-box h2 span {
+	color: #f00;
+}
+.notifi-item {
+	display: flex;
+	border-bottom: 1px solid #eee;
+	padding: 15px 5px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.notifi-item:hover {
+	background-color: #eee;
+}
+.notifi-item img {
+	display: block;
+	height: 70px;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+.notifi-item .text h4 {
+	color: #EF9B0F;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.notifi-item .text p {
+	color: #000;
+	font-size: 12px;
+}
+
 .seller-profile-area{
 	position: relative;
 }
@@ -308,6 +399,33 @@ ul.checkbox-ul li{
 .page-header .page-linker {
     padding: 10px 0;
 }
+.seller-information .action-area p{
+	margin: 0px;
+}
+.seller-information .action-area p a{
+	color: #09c;
+}
+.seller-information .action-area small{
+	margin: 0px;
+	font-size: 14px;
+}
+.seller-information .action-area small a{
+	color: #000;
+	text-decoration: underline;
+}
+.seller-information .action-area p a:hover{
+	color: #EF9B0F;
+}
+.history-area{
+	display: flex;
+	align-items: center;
+}
+.recomend{
+	margin: 10px;
+    padding: 5px;
+    width: 320px;
+    background: #e9e9e9;
+}
 @media screen and (max-width: 991px){
 	.arrow.active-arrow{
 		display: block;
@@ -323,6 +441,12 @@ ul.checkbox-ul li{
 	}
 }
 @media screen and (max-width: 439px){
+	.history-area{
+		display: block;
+	}
+	.btn-area btn{
+		width: 100%
+	}
 	.payment-icon-a-link{
 		display: block;
 	}

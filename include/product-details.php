@@ -15,7 +15,7 @@
     <!-- page header ends  -->
 
     <!-- product details start -->
-    <section class="product-details pb-5">
+    <section class="product-details upload-view pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
@@ -218,6 +218,28 @@
                                                     </span>
                                                     <span class="posted_in"><strong>Categories: </strong><a href="#" rel="tag">BOTTOMS</a>, <a href="#" rel="tag">Jeans</a>, <a href="#" rel="tag">Women Fashion</a></span><br>
                                                     <span class="tagged_as"><strong>Tags: </strong><a href="#" rel="tag">Casual</a>, <a href="#" rel="tag">High</a>, <a href="#" rel="tag">Womens</a>, <a href="#" rel="tag">UK</a>, <a href="#" rel="tag">Pants</a>, <a href="#" rel="tag">Waist</a>, <a href="#" rel="tag">Trousers</a>, <a href="#" rel="tag">Stretch</a>, <a href="#" rel="tag">Jeans</a>, <a href="#" rel="tag">Skinny</a>, <a href="#" rel="tag">DENIM</a>, <a href="#" rel="tag">Flared</a></span>
+                                                    <br>
+                                                    <span class="sku_wrapper">
+                                                    <strong>Shipping: </strong>
+                                                    <span class="sku">
+                                                    Local pick-up orderd. </span><br>
+                                                    <span>item location: Kishoreganj, Hossainpur</span><br>
+                                                    </span>
+                                                    <span class="posted_in"><strong>Estimated Delivery: </strong>Varies</span><br>
+                                                    <span class="sku_wrapper">
+                                                    <strong>Seller and rating: </strong>
+                                                    <span class="sku">
+                                                    <span class="seller-name">Company name (154 <i class="fa fa-star" aria-hidden="true"></i>)</span> </span><br>
+                                                    </span>
+                                                    <span class="tagged_as"><strong>Payments: </strong>
+                                                        <div class="payment-icon-a-link">
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/02.png" alt=""></a> <a href="#" rel="tag"><img src="assets/images/footer/01.png" alt=""></a> 
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/03.png" alt=""></a> 
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/04.png" alt=""></a> 
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/05.png" alt=""></a> 
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/06.png" alt=""></a>
+                                                        </div>
+                                                    </span>
                                                 </div>
                                                 <hr>
                                                 <button type="button" class="btn btn-icon rounded-circle btn-outline-primary mr-1 mb-1"><i class="fa fa-facebook"></i></button>
@@ -423,6 +445,32 @@
               </div>
                 </div>
                 <div class="col-md-3">
+
+                    <div class="shop-confidence">
+                        <h3>Shop with confidence</h3>
+                        <hr>
+                        <div class="content">
+                            <i class="fa fa-usd" aria-hidden="true"></i>
+                            <h5>Xpesos money back guraty</h5>
+                            <p>Get the item your order or get your money back</p>
+                        </div>
+                    </div>
+
+                    <div class="seller-information">
+                        <h5>Seller Information</h5>
+                        <p class="seller-name">Company name (154 <i class="fa fa-star" aria-hidden="true"></i>)</p>
+                        <p class="positive-reviw">100% positive review</p>
+                        <hr>
+                        <div class="action-area">
+                            <p><a href="#" ><i class="fa fa-heart" aria-hidden="true"></i> Save this seller</a></p>
+                            <p><a href="#">Contact seller</a></p>
+                            <p><a href="#">Visit Store</a></p>
+                            <p><a href="#">See others item</a></p>
+                            <hr>
+                            <small><a href="#">Registerd as business seller</a></small>
+                        </div>
+                    </div>
+
                     <div class="shipping-area">
                         <ul class="mf-shipping-info">
                             <li><i class="fa fa-globe" aria-hidden="true"></i> Shipping to Africa &amp; UK</li>
