@@ -348,14 +348,19 @@
                                 </div>
                                 <div class="content">
                                     <h4>Product name</h4>
-                                    <p>Listing renews in 4d 1h</p>
+                                    <p>Sold: 24/04/2021</p>
+                                    <div class="btn-area cncl">
+                                        <a href="#" class="btn"><i class="fa fa-times"></i> Cancel Order</a>
+                                    </div>
                                 </div>
-                                <div class="recomend text-center">
-                                    <h5>Recommended item specifics missing</h5>
-                                    <p>10 item specifics</p>
-                                </div>
+                                <!---<div class="recomend text-center">
+                                    
+                                </div>--->
                                 <div class="btn-area">
-                                    <a href="#" class="btn">Add item</a>
+                                    <a href="#" class="btn">Buy again</a>
+                                    <a href="#" class="btn">Return item</a>
+                                    <a href="#" class="btn">Review item</a>
+                                    <a href="#" class="btn">Track delivery</a>
                                 </div>
                             </div>
                             
@@ -373,14 +378,19 @@
                                 </div>
                                 <div class="content">
                                     <h4>Product name</h4>
-                                    <p>Listing renews in 4d 1h</p>
+                                    <p>Sold: 24/04/2021</p>
+                                    <div class="btn-area cncl">
+                                        <a href="#" class="btn"><i class="fa fa-times"></i> Cancel Order</a>
+                                    </div>
                                 </div>
-                                <div class="recomend text-center">
-                                    <h5>Recommended item specifics missing</h5>
-                                    <p>10 item specifics</p>
-                                </div>
+                                <!---<div class="recomend text-center">
+                                    
+                                </div>--->
                                 <div class="btn-area">
-                                    <a href="#" class="btn">Add item</a>
+                                    <a href="#" class="btn">Buy again</a>
+                                    <a href="#" class="btn">Return item</a>
+                                    <a href="#" class="btn">Review item</a>
+                                    <a href="#" class="btn">Track delivery</a>
                                 </div>
                             </div>
                             
@@ -398,14 +408,19 @@
                                 </div>
                                 <div class="content">
                                     <h4>Product name</h4>
-                                    <p>Listing renews in 4d 1h</p>
+                                    <p>Sold: 24/04/2021</p>
+                                    <div class="btn-area cncl">
+                                        <a href="#" class="btn"><i class="fa fa-times"></i> Cancel Order</a>
+                                    </div>
                                 </div>
-                                <div class="recomend text-center">
-                                    <h5>Recommended item specifics missing</h5>
-                                    <p>10 item specifics</p>
-                                </div>
+                                <!---<div class="recomend text-center">
+                                    
+                                </div>--->
                                 <div class="btn-area">
-                                    <a href="#" class="btn">Add item</a>
+                                    <a href="#" class="btn">Buy again</a>
+                                    <a href="#" class="btn">Return item</a>
+                                    <a href="#" class="btn">Review item</a>
+                                    <a href="#" class="btn">Track delivery</a>
                                 </div>
                             </div>
                             
@@ -423,14 +438,19 @@
                                 </div>
                                 <div class="content">
                                     <h4>Product name</h4>
-                                    <p>Listing renews in 4d 1h</p>
+                                    <p>Sold: 24/04/2021</p>
+                                    <div class="btn-area cncl">
+                                        <a href="#" class="btn"><i class="fa fa-times"></i> Cancel Order</a>
+                                    </div>
                                 </div>
-                                <div class="recomend text-center">
-                                    <h5>Recommended item specifics missing</h5>
-                                    <p>10 item specifics</p>
-                                </div>
+                                <!---<div class="recomend text-center">
+                                    
+                                </div>--->
                                 <div class="btn-area">
-                                    <a href="#" class="btn">Add item</a>
+                                    <a href="#" class="btn">Buy again</a>
+                                    <a href="#" class="btn">Return item</a>
+                                    <a href="#" class="btn">Review item</a>
+                                    <a href="#" class="btn">Track delivery</a>
                                 </div>
                             </div>
                             
@@ -448,14 +468,19 @@
                                 </div>
                                 <div class="content">
                                     <h4>Product name</h4>
-                                    <p>Listing renews in 4d 1h</p>
+                                    <p>Sold: 24/04/2021</p>
+                                    <div class="btn-area cncl">
+                                        <a href="#" class="btn"><i class="fa fa-times"></i> Cancel Order</a>
+                                    </div>
                                 </div>
-                                <div class="recomend text-center">
-                                    <h5>Recommended item specifics missing</h5>
-                                    <p>10 item specifics</p>
-                                </div>
+                                <!---<div class="recomend text-center">
+                                    
+                                </div>--->
                                 <div class="btn-area">
-                                    <a href="#" class="btn">Add item</a>
+                                    <a href="#" class="btn">Buy again</a>
+                                    <a href="#" class="btn">Return item</a>
+                                    <a href="#" class="btn">Review item</a>
+                                    <a href="#" class="btn">Track delivery</a>
                                 </div>
                             </div>
                             

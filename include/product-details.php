@@ -1,4 +1,4 @@
-<!-- page header start -->
+page header start -->
     <section class="page-header">
         <div class="container">
             <div class="page-linker border-0">
@@ -103,6 +103,11 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+
+                                                        <div class="sell-similar-item">
+                                                            <button class="btn btn-info mr-0 mr-sm-1 mb-2 mb-sm-0"><i class="fa fa-shopping-cart mr-2"></i>SELL SIMILAR ITEMS</button>
+                                                        </div>
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -133,8 +138,44 @@
 -->
                                                 <p class="font-weight-bold mb-2"> <i class="fa fa-truck mr-2 font-medium-2"></i>Free Shipping
                                                 </p>
-                                                <p class="font-weight-bold"> <i class="fa fa-dollar mr-3 font-medium-2"></i>EMI options available
-                                                </p>
+                                                
+                                                <!-- <p class="font-weight-bold"> <i class="fa fa-dollar mr-3 font-medium-2"></i>EMI options available
+                                                </p> -->
+
+                                                <hr>
+                                                <div class="product_meta">
+                                                    <!-- <span class="sku_wrapper">
+                                                    <strong>SKU: </strong>
+                                                    <span class="sku">
+                                                    18986 </span><br>
+                                                    </span> -->
+
+                                                    <!-- <span class="posted_in"><strong>Categories: </strong><a href="#" rel="tag">BOTTOMS</a>, <a href="#" rel="tag">Jeans</a>, <a href="#" rel="tag">Women Fashion</a></span><br> -->
+
+                                                    <!-- <span class="tagged_as"><strong>Tags: </strong><a href="#" rel="tag">Casual</a>, <a href="#" rel="tag">High</a>, <a href="#" rel="tag">Womens</a>, <a href="#" rel="tag">UK</a>, <a href="#" rel="tag">Pants</a>, <a href="#" rel="tag">Waist</a>, <a href="#" rel="tag">Trousers</a>, <a href="#" rel="tag">Stretch</a>, <a href="#" rel="tag">Jeans</a>, <a href="#" rel="tag">Skinny</a>, <a href="#" rel="tag">DENIM</a>, <a href="#" rel="tag">Flared</a></span>
+                                                    <br> -->
+                                                    <span class="sku_wrapper">
+                                                    <strong>Shipping: </strong>
+                                                    <span class="sku">
+                                                    Local pick-up orderd. </span><br>
+                                                    <span>item location: Kishoreganj, Hossainpur</span><br>
+                                                    </span>
+                                                    <span class="posted_in"><strong>Estimated Delivery: </strong>Varies</span><br>
+                                                    <span class="sku_wrapper">
+                                                    <strong>Seller and rating: </strong>
+                                                    <span class="sku">
+                                                    <span class="seller-name">Company name (154 <i class="fa fa-star" aria-hidden="true"></i>)</span> </span><br>
+                                                    </span>
+                                                    <span class="tagged_as"><strong>Payments: </strong>
+                                                        <div class="payment-icon-a-link">
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/02.png" alt=""></a> <a href="#" rel="tag"><img src="assets/images/footer/01.png" alt=""></a> 
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/03.png" alt=""></a> 
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/04.png" alt=""></a> 
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/05.png" alt=""></a> 
+                                                            <a href="#" rel="tag"><img src="assets/images/footer/06.png" alt=""></a>
+                                                        </div>
+                                                    </span>
+                                                </div>
                                                 <hr>
                                                 <div class="form-group">
                                                     <label class="font-weight-bold">Color</label>
@@ -168,9 +209,9 @@
                                                 </div>
                                                 <hr>
                                                 <p>Available - <span class="text-success">In stock</span></p>
-                                                <div class="seller-btn mb-4">
+                                               <!--  <div class="seller-btn mb-4">
                                                     <button type="button" class="btn"  data-target="#contactSeller" data-toggle="modal"><span><i class="fa fa-question-circle mr-2"></i></span><span>Contact seller</span></button>
-                                                </div>
+                                                </div> -->
                                                 <div class="content-form">
                                                     <form action="post">
                                                         <div class="product-details-input form-group">
@@ -210,38 +251,7 @@
                                                     <button class="btn btn-outline-danger"><i class="fa fa-heart mr-2"></i>Buy Now</button>
                                                 </div>
                                                 <hr>
-                                                <div class="product_meta">
-                                                    <span class="sku_wrapper">
-                                                    <strong>SKU: </strong>
-                                                    <span class="sku">
-                                                    18986 </span><br>
-                                                    </span>
-                                                    <span class="posted_in"><strong>Categories: </strong><a href="#" rel="tag">BOTTOMS</a>, <a href="#" rel="tag">Jeans</a>, <a href="#" rel="tag">Women Fashion</a></span><br>
-                                                    <span class="tagged_as"><strong>Tags: </strong><a href="#" rel="tag">Casual</a>, <a href="#" rel="tag">High</a>, <a href="#" rel="tag">Womens</a>, <a href="#" rel="tag">UK</a>, <a href="#" rel="tag">Pants</a>, <a href="#" rel="tag">Waist</a>, <a href="#" rel="tag">Trousers</a>, <a href="#" rel="tag">Stretch</a>, <a href="#" rel="tag">Jeans</a>, <a href="#" rel="tag">Skinny</a>, <a href="#" rel="tag">DENIM</a>, <a href="#" rel="tag">Flared</a></span>
-                                                    <br>
-                                                    <span class="sku_wrapper">
-                                                    <strong>Shipping: </strong>
-                                                    <span class="sku">
-                                                    Local pick-up orderd. </span><br>
-                                                    <span>item location: Kishoreganj, Hossainpur</span><br>
-                                                    </span>
-                                                    <span class="posted_in"><strong>Estimated Delivery: </strong>Varies</span><br>
-                                                    <span class="sku_wrapper">
-                                                    <strong>Seller and rating: </strong>
-                                                    <span class="sku">
-                                                    <span class="seller-name">Company name (154 <i class="fa fa-star" aria-hidden="true"></i>)</span> </span><br>
-                                                    </span>
-                                                    <span class="tagged_as"><strong>Payments: </strong>
-                                                        <div class="payment-icon-a-link">
-                                                            <a href="#" rel="tag"><img src="assets/images/footer/02.png" alt=""></a> <a href="#" rel="tag"><img src="assets/images/footer/01.png" alt=""></a> 
-                                                            <a href="#" rel="tag"><img src="assets/images/footer/03.png" alt=""></a> 
-                                                            <a href="#" rel="tag"><img src="assets/images/footer/04.png" alt=""></a> 
-                                                            <a href="#" rel="tag"><img src="assets/images/footer/05.png" alt=""></a> 
-                                                            <a href="#" rel="tag"><img src="assets/images/footer/06.png" alt=""></a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                                <hr>
+                                                
                                                 <button type="button" class="btn btn-icon rounded-circle btn-outline-primary mr-1 mb-1"><i class="fa fa-facebook"></i></button>
                                                 <button type="button" class="btn btn-icon rounded-circle btn-outline-info mr-1 mb-1"><i class="fa fa-twitter"></i></button>
                                                 <button type="button" class="btn btn-icon rounded-circle btn-outline-primary mr-1 mb-1"><i class="fa fa-instagram"></i></button>
@@ -271,6 +281,70 @@
                                                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                                                             <div class="tabcontent">
                                                                 <div class="post-text">
+                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
+                                                                    <div class="mt-4">
+                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
+                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
+                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
+                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
+                                                                    </div>
+                                                                    <div class="post-text">
+                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
+                                                                    <div class="mt-4">
+                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
+                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
+                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
+                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
+                                                                    </div>
+                                                                    <div class="post-text">
+                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
+                                                                    <div class="mt-4">
+                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
+                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
+                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
+                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
+                                                                    </div>
+                                                                    <div class="post-text">
+                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
+                                                                    <div class="mt-4">
+                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
+                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
+                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
+                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
+                                                                    </div>
+                                                                    <div class="post-text">
+                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
+                                                                    <div class="mt-4">
+                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
+                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
+                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
+                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
+                                                                    </div>
+                                                                    <div class="post-text">
+                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
+                                                                    <div class="mt-4">
+                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
+                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
+                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
+                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
+                                                                    </div>
+                                                                    <div class="post-text">
+                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
+                                                                    <div class="mt-4">
+                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
+                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
+                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
+                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
+                                                                    </div>
+                                                                    <div class="post-text">
+                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
+                                                                    <div class="mt-4">
+                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
+                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
+                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
+                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
+                                                                    </div>
+                                                                    <div class="post-text">
                                                                     <p class="small">Used: Item has been tested and working perfectly</p>
                                                                     <div class="mt-4">
                                                                         <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
@@ -446,7 +520,7 @@
                 </div>
                 <div class="col-md-3">
 
-                    <div class="shop-confidence">
+                    <!-- <div class="shop-confidence">
                         <h3>Shop with confidence</h3>
                         <hr>
                         <div class="content">
@@ -454,6 +528,15 @@
                             <h5>Xpesos money back guraty</h5>
                             <p>Get the item your order or get your money back</p>
                         </div>
+                    </div> -->
+
+                    <div class="shipping-area">
+                        <ul class="mf-shipping-info">
+                            <li><i class="fa fa-globe" aria-hidden="true"></i> Shipping to Africa &amp; UK</li>
+                            <li><i class="fa fa-truck" aria-hidden="true"></i>Free 18-day return if eligible, so easy </li>
+                            <li><i class="fa fa-file-text-o" aria-hidden="true"></i>Supplier give bills for this product.</li>
+                            <li><i class="fa fa-credit-card" aria-hidden="true"></i>Pay online or when receiving goods</li>
+                        </ul>
                     </div>
 
                     <div class="seller-information">
@@ -469,15 +552,6 @@
                             <hr>
                             <small><a href="#">Registerd as business seller</a></small>
                         </div>
-                    </div>
-
-                    <div class="shipping-area">
-                        <ul class="mf-shipping-info">
-                            <li><i class="fa fa-globe" aria-hidden="true"></i> Shipping to Africa &amp; UK</li>
-                            <li><i class="fa fa-truck" aria-hidden="true"></i>Free 18-day return if eligible, so easy </li>
-                            <li><i class="fa fa-file-text-o" aria-hidden="true"></i>Supplier give bills for this product.</li>
-                            <li><i class="fa fa-credit-card" aria-hidden="true"></i>Pay online or when receiving goods</li>
-                        </ul>
                     </div>
                     
                     <div id="custom_html-7" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><i class="fa fa-shopping-basket" aria-hidden="true"></i><span style="color: #000; padding-left: 10px">Sell on xpesos? </span><a href="vendor-registration.php">Register Now!</a></div></div>
@@ -867,4 +941,4 @@
             </div>
         </div>
     </div>
-    <!-- Seller modal ends  -->
+    <!-- Seller modal ends 

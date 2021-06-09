@@ -416,15 +416,58 @@ ul.checkbox-ul li{
 .seller-information .action-area p a:hover{
 	color: #EF9B0F;
 }
+.min-height#myTabContent {
+    height: 1278px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 .history-area{
 	display: flex;
 	align-items: center;
 }
+.history-area .content{
+	width: 45%;
+}
+.history-area .content .btn-area.cncl .btn{
+	width: auto;
+	display: initial;
+}
+.history-area .content .btn-area.cncl .btn:hover{
+	background-color: #EF9B0F;
+	color: #fff;
+}
 .recomend{
 	margin: 10px;
     padding: 5px;
-    width: 320px;
+    width: 280px;
     background: #e9e9e9;
+}
+.history-area .btn-area{
+	margin: 10px;
+}
+.history-area .btn-area .btn{
+	width: 100%;
+    text-align: center;
+    display: block;
+    margin: 5px;
+    font-weight: bold;
+    background: #fff;
+    border: 2px solid #EF9B0F;
+}
+.history-area .btn-area .btn:hover{
+	background-color: #EF9B0F;
+	color: #fff;
+}
+.sell-similar-item{
+	padding: 30px;
+	margin: 30px;
+}
+.sell-similar-item button{
+	font-weight: bold;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    text-decoration: underline;
 }
 @media screen and (max-width: 991px){
 	.arrow.active-arrow{
@@ -441,6 +484,13 @@ ul.checkbox-ul li{
 	}
 }
 @media screen and (max-width: 439px){
+	.min-height#myTabContent{
+		height: auto;
+		overflow: initial;
+	}
+	.history-area .content{
+		width: auto;
+	}
 	.history-area{
 		display: block;
 	}
