@@ -7,7 +7,7 @@
 				    <div class="form-group col-md-6 m-t-b">
 				      <label for="inputEmail4">Title <span>*</span></label>
 				      <input type="text" class="form-control" id="inputEmail4">
-				      <input type="checkbox" name=""><small class="form-text text-muted">&nbsp; &nbsp; Stand out with a bold title in search results($2.40)</small><span class="f-right">70 character</span>
+				      <!-- <input type="checkbox" name=""><small class="form-text text-muted">&nbsp; &nbsp; Stand out with a bold title in search results($2.40)</small><span class="f-right">70 character</span> -->
 				    </div>
 				    <div class="form-group col-md-6 m-t-b">
 				      <label for="inputEmail4">Sub title </label>
@@ -26,13 +26,7 @@
 				      	<option value="">Select sub category</option>
 				      </select>
 				    </div>
-				    <div class="form-group col-md-4">
-				      <label >UPC</label>
-				      <select class="form-control">
-				        <option selected>Choose...</option>
-				        <option>...</option>
-				      </select>
-				    </div>
+				    
 				    <div class="form-group col-md-2">
 				      <label >Condition</label>
 				      <select class="form-control">
@@ -67,57 +61,59 @@
 				    <div class="alert alert-primary" role="alert">
 					  <a class="alert-link">Item specifics: Required </a> Buyers need these item specifics about your item
 					</div>
-					<div class="row">
-						<div class="col-md-8">
-							<div class="row">
-								<div class="form-group col-md-6 m-t-b">
-							      <label for="inputEmail4">Brand <span>*</span></label>
-							      <select type="text" class="form-control" >
-							      	<option value="">Select Brand</option>
-							      </select>
-							    </div>
-							    <div class="form-group col-md-6 m-t-b">
-							      <label for="inputEmail4">Style <span>*</span></label>
-							      <select type="text" class="form-control" >
-							      	<option value="">Select Syle</option>
-							      </select>
-							    </div>
-							</div>
-							<div class="row">
-								<div class="form-group col-md-6 m-t-b">
-							      <label for="inputEmail4">Size Type <span>*</span></label>
-							      <select type="text" class="form-control" >
-							      	<option value="">Select Size Type</option>
-							      </select>
-							    </div>
-							    <div class="form-group col-md-6 m-t-b">
-							      <label for="inputEmail4">Size <span>*</span></label>
-							      <select type="text" class="form-control" >
-							      	<option value="">Select Size</option>
-							      </select>
-							    </div>
-							</div>
-							<div class="row">
-								<div class="form-group col-md-6 m-t-b">
-							      <label for="inputEmail4">Inseam <span>*</span></label>
-							      <select type="text" class="form-control" >
-							      	<option value="">Select Inseam</option>
-							      </select>
-							    </div>
-							    <div class="form-group col-md-6 m-t-b">
-							      <label for="inputEmail4">Color <span>*</span></label>
-							      <select type="text" class="form-control" >
-							      	<option value="">Select Color</option>
-							      </select>
-							    </div>
-							</div>
-							<div class="row">
-								<div class="form-group col-md-6 m-t-b">
-							      <label for="inputEmail4">Department <span>*</span></label>
-							      <select type="text" class="form-control" >
-							      	<option value="">Select Department</option>
-							      </select>
-							    </div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8">
+								<div class="row">
+									<div class="form-group col-md-6 m-t-b">
+								      <label for="inputEmail4">Brand <span>*</span></label>
+								      <select type="text" class="form-control" >
+								      	<option value="">Select Brand</option>
+								      </select>
+								    </div>
+								    <div class="form-group col-md-6 m-t-b">
+								      <label for="inputEmail4">Style <span>*</span></label>
+								      <select type="text" class="form-control" >
+								      	<option value="">Select Syle</option>
+								      </select>
+								    </div>
+								</div>
+								<div class="row">
+									<div class="form-group col-md-6 m-t-b">
+								      <label for="inputEmail4">Size Type <span>*</span></label>
+								      <select type="text" class="form-control" >
+								      	<option value="">Select Size Type</option>
+								      </select>
+								    </div>
+								    <div class="form-group col-md-6 m-t-b">
+								      <label for="inputEmail4">Size <span>*</span></label>
+								      <select type="text" class="form-control" >
+								      	<option value="">Select Size</option>
+								      </select>
+								    </div>
+								</div>
+								<div class="row">
+									<div class="form-group col-md-6 m-t-b">
+								      <label for="inputEmail4">Inseam <span>*</span></label>
+								      <select type="text" class="form-control" >
+								      	<option value="">Select Inseam</option>
+								      </select>
+								    </div>
+								    <div class="form-group col-md-6 m-t-b">
+								      <label for="inputEmail4">Color <span>*</span></label>
+								      <select type="text" class="form-control" >
+								      	<option value="">Select Color</option>
+								      </select>
+								    </div>
+								</div>
+								<div class="row">
+									<div class="form-group col-md-6 m-t-b">
+								      <label for="inputEmail4">Department <span>*</span></label>
+								      <select type="text" class="form-control" >
+								      	<option value="">Select Department</option>
+								      </select>
+								    </div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -635,7 +631,7 @@
 								<div class="col-md-12">
 									<small>If your item sells, you will be charged a final <a href="#" style="text-decoration: underline;">value fee.</a></small><br>
 									<small>Funds from your sales may be unavailable and show as pending for a period of time. <a href="#" style="text-decoration: underline;">Learn more</a></small><br>
-									<small>By selecting List item, you agree to pay the above fees; accept the eBay <a href="#" style="text-decoration: underline;">User Agreement</a>, <a href="#" style="text-decoration: underline;">Payments Terms of Use</a> and <a href="#" style="text-decoration: underline;">Marketing Terms of Service</a>; acknowledge reading the <a href="#" style="text-decoration: underline;">User Privacy Notice</a>; and assume full responsibility for the item offered and the content of your listing.</small><br>
+									<small>By selecting List item, you agree to pay the above fees; accept the Expesos <a href="#" style="text-decoration: underline;">User Agreement</a>, <a href="#" style="text-decoration: underline;">Payments Terms of Use</a> and <a href="#" style="text-decoration: underline;">Marketing Terms of Service</a>; acknowledge reading the <a href="#" style="text-decoration: underline;">User Privacy Notice</a>; and assume full responsibility for the item offered and the content of your listing.</small><br>
 								</div>
 							</div>
 							<hr>
@@ -643,16 +639,16 @@
 								<div class="col-md-8">
 									<div class="row">
 										<div class="col-md-3">
-											<button class="btn btn-primary" style="width: 100%;">List Item</button>
+											<button class="btn btn-primary sl-prd-add-btn" style="width: 100%;">List Item</button>
 										</div>
 										<div class="col-md-3">
-											<a href="seller_product_uplaod_view.php" class="btn btn-warning" style="width: 100%; color: white; display: block;">Preview</a>
+											<a href="seller_product_uplaod_view.php" class="btn btn-warning sl-prd-add-btn" style="width: 100%; display: block;">Preview</a>
 										</div>
 										<div class="col-md-3">
-											<a href="#" class="btn btn-warning" style="width: 100%; color: white; display: block; text-align: center;">Save as draft</a>
+											<a href="#" class="btn btn-warning sl-prd-add-btn" style="width: 100%; display: block; text-align: center;">Save as draft</a>
 										</div>
 										<div class="col-md-3">
-											<a href="#" class="btn btn-danger" style="width: 100%; color: #000; display: block; text-align: center;">cancel</a>
+											<a href="#" class="btn btn-danger sl-prd-add-btn" style="width: 100%; color: red; display: block; text-align: center;">cancel</a>
 										</div>
 									</div>
 								</div>

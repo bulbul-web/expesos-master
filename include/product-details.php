@@ -1,4 +1,4 @@
-page header start -->
+<!--page header start -->
     <section class="page-header">
         <div class="container">
             <div class="page-linker border-0">
@@ -105,7 +105,7 @@ page header start -->
                                                         </div>
 
                                                         <div class="sell-similar-item">
-                                                            <button class="btn btn-info mr-0 mr-sm-1 mb-2 mb-sm-0"><i class="fa fa-shopping-cart mr-2"></i>SELL SIMILAR ITEMS</button>
+                                                            <button class="btn btn-info mr-0 mr-sm-1 mb-2 mb-sm-0"> SELL SIMILAR ITEMS</button>
                                                         </div>
                                                         
                                                     </div>
@@ -550,7 +550,7 @@ page header start -->
                             <p><a href="#">Visit Store</a></p>
                             <p><a href="#">See others item</a></p>
                             <hr>
-                            <small><a href="#">Registerd as business seller</a></small>
+                            <small><a href="#">Stand out! Earn xpesos Badge</a></small>
                         </div>
                     </div>
                     

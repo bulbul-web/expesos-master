@@ -432,6 +432,9 @@ ul.checkbox-ul li{
 	width: auto;
 	display: initial;
 }
+.history-area .content .btn-area.cncl a{
+	color: red;
+}
 .history-area .content .btn-area.cncl .btn:hover{
 	background-color: #EF9B0F;
 	color: #fff;
@@ -444,6 +447,13 @@ ul.checkbox-ul li{
 }
 .history-area .btn-area{
 	margin: 10px;
+}
+.sl-prd-add-btn{
+	background: #fff;
+    border: 2px solid #EF9B0F;
+    margin: 5px 0px;
+    color: black;
+    font-weight: bold;
 }
 .history-area .btn-area .btn{
 	width: 100%;
@@ -466,12 +476,26 @@ ul.checkbox-ul li{
 	font-weight: bold;
     width: 100%;
     background-color: transparent;
-    color: black;
     text-decoration: underline;
+    box-shadow: none;
+	width: auto;
+	font-size: 16px;
+	margin-left: -20px;
+	color:#09c;
+}
+.sell-similar-item{
+	padding: 0px;
+	margin: 0px;
+}
+.product-variation .product-container.gallery-top .swiper-wrapper .swiper-slide .thumb{
+	padding: 15px;
 }
 @media screen and (max-width: 991px){
 	.arrow.active-arrow{
 		display: block;
+	}
+	.icon img{
+		width: 30px;
 	}
 }
 @media screen and (max-width: 768px){
@@ -484,6 +508,12 @@ ul.checkbox-ul li{
 	}
 }
 @media screen and (max-width: 439px){
+
+	.history-area .btn-area.cncl{
+		position: relative;
+	    top: -33px;
+	    right: -177px;
+	}
 	.min-height#myTabContent{
 		height: auto;
 		overflow: initial;

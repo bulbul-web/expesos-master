@@ -350,7 +350,7 @@
                                     <h4>Product name</h4>
                                     <p>Sold: 24/04/2021</p>
                                     <div class="btn-area cncl">
-                                        <a href="#" class="btn"><i class="fa fa-times"></i> Cancel Order</a>
+                                        <a href="#" class=""><i class="fa fa-times"></i> Cancel Order</a>
                                     </div>
                                 </div>
                                 <!---<div class="recomend text-center">
@@ -380,7 +380,7 @@
                                     <h4>Product name</h4>
                                     <p>Sold: 24/04/2021</p>
                                     <div class="btn-area cncl">
-                                        <a href="#" class="btn"><i class="fa fa-times"></i> Cancel Order</a>
+                                        <a href="#" class=""><i class="fa fa-times"></i> Cancel Order</a>
                                     </div>
                                 </div>
                                 <!---<div class="recomend text-center">
@@ -410,7 +410,7 @@
                                     <h4>Product name</h4>
                                     <p>Sold: 24/04/2021</p>
                                     <div class="btn-area cncl">
-                                        <a href="#" class="btn"><i class="fa fa-times"></i> Cancel Order</a>
+                                        <a href="#" class=""><i class="fa fa-times"></i> Cancel Order</a>
                                     </div>
                                 </div>
                                 <!---<div class="recomend text-center">
@@ -440,7 +440,7 @@
                                     <h4>Product name</h4>
                                     <p>Sold: 24/04/2021</p>
                                     <div class="btn-area cncl">
-                                        <a href="#" class="btn"><i class="fa fa-times"></i> Cancel Order</a>
+                                        <a href="#" class=""><i class="fa fa-times"></i> Cancel Order</a>
                                     </div>
                                 </div>
                                 <!---<div class="recomend text-center">
@@ -470,7 +470,7 @@
                                     <h4>Product name</h4>
                                     <p>Sold: 24/04/2021</p>
                                     <div class="btn-area cncl">
-                                        <a href="#" class="btn"><i class="fa fa-times"></i> Cancel Order</a>
+                                        <a href="#" class=""><i class="fa fa-times"></i> Cancel Order</a>
                                     </div>
                                 </div>
                                 <!---<div class="recomend text-center">
