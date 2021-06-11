@@ -297,11 +297,11 @@
                             <div class="own-nav">
                                 <ul class="nav nav-pills nav-stacked">
                                     <li class="header">Folders</li>
-                                    <li class="active"><a href="#"><i class="fa fa-inbox"></i> Inbox (14)</a></li>
-                                    <li><a href="#"><i class="fa fa-star"></i> Starred</a></li>
-                                    <li><a href="#"><i class="fa fa-bookmark"></i> Important</a></li>
-                                    <li><a href="#"><i class="fa fa-mail-forward"></i> Sent</a></li>
-                                    <li><a href="#"><i class="fa fa-pencil-square-o"></i> Drafts</a></li>
+                                    <li class="active float-left-li-mail"><a href="#"><i class="fa fa-inbox"></i> Inbox (14)</a></li>
+                                    <li class="float-left-li-mail"><a href="#"><i class="fa fa-star"></i> Starred</a></li>
+                                    <li class="float-left-li-mail"><a href="#"><i class="fa fa-bookmark"></i> Important</a></li>
+                                    <li class="float-left-li-mail"><a href="#"><i class="fa fa-mail-forward"></i> Sent</a></li>
+                                    <li class="float-left-li-mail"><a href="#"><i class="fa fa-pencil-square-o"></i> Drafts</a></li>
                                 </ul>
                             </div>
                         </div>

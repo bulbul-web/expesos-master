@@ -105,7 +105,7 @@
                                                         </div>
 
                                                         <div class="sell-similar-item">
-                                                            <button class="btn btn-info mr-0 mr-sm-1 mb-2 mb-sm-0"> SELL SIMILAR ITEMS</button>
+                                                            <button class="btn btn-info mr-0 mr-sm-1 mb-2 mb-sm-0"> Sell similar item</button>
                                                         </div>
                                                         
                                                     </div>
@@ -155,17 +155,21 @@
                                                     <!-- <span class="tagged_as"><strong>Tags: </strong><a href="#" rel="tag">Casual</a>, <a href="#" rel="tag">High</a>, <a href="#" rel="tag">Womens</a>, <a href="#" rel="tag">UK</a>, <a href="#" rel="tag">Pants</a>, <a href="#" rel="tag">Waist</a>, <a href="#" rel="tag">Trousers</a>, <a href="#" rel="tag">Stretch</a>, <a href="#" rel="tag">Jeans</a>, <a href="#" rel="tag">Skinny</a>, <a href="#" rel="tag">DENIM</a>, <a href="#" rel="tag">Flared</a></span>
                                                     <br> -->
                                                     <span class="sku_wrapper">
+                                                    <strong>Condition: </strong>
+                                                    <span class="sku">
+                                                    Old </span><br>
+                                                    <span class="sku_wrapper">
                                                     <strong>Shipping: </strong>
                                                     <span class="sku">
                                                     Local pick-up orderd. </span><br>
                                                     <span>item location: Kishoreganj, Hossainpur</span><br>
                                                     </span>
                                                     <span class="posted_in"><strong>Estimated Delivery: </strong>Varies</span><br>
-                                                    <span class="sku_wrapper">
+                                                    <!-- <span class="sku_wrapper">
                                                     <strong>Seller and rating: </strong>
                                                     <span class="sku">
                                                     <span class="seller-name">Company name (154 <i class="fa fa-star" aria-hidden="true"></i>)</span> </span><br>
-                                                    </span>
+                                                    </span> -->
                                                     <span class="tagged_as"><strong>Payments: </strong>
                                                         <div class="payment-icon-a-link">
                                                             <a href="#" rel="tag"><img src="assets/images/footer/02.png" alt=""></a> <a href="#" rel="tag"><img src="assets/images/footer/01.png" alt=""></a> 

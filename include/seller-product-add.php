@@ -118,7 +118,7 @@
 						</div>
 					</div>
 					<hr>
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-md-12">
 							<h4>Recommended</h4>
 							<p>Buyers frequently search for these item specifics</p>
@@ -126,12 +126,12 @@
 							  <a class="alert-link">Improve your chances of selling </a> Add more details about your item
 							</div>
 						</div>
-					</div>
+					</div> -->
 
 				<div class="container">
 						
 					
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-md-10">
 							<div class="row">
 							<div class="form-group col-md-5 m-t-b">
@@ -182,9 +182,9 @@
 							    </div>
 							 </div>
 						</div>
-					</div>
+					</div> -->
 
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-md-10">
 							<div class="row">
 							<div class="form-group col-md-5 m-t-b">
@@ -259,10 +259,10 @@
 
 							 </div>
 						</div>
-					</div>
+					</div> -->
 
 
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-md-10">
 							<div class="row">
 							<div class="form-group col-md-5 m-t-b">
@@ -292,11 +292,11 @@
 							    
 							 </div>
 						</div>
-					</div>
+					</div> -->
 
 
 
-					<hr>
+					<!-- <hr>
 					<div class="row">
 
 						<div class="col-md-12">
@@ -304,7 +304,7 @@
 							<p>Buyers may also be interested in these item specifics</p>
 							
 						</div>
-					</div>
+					</div> -->
 
 					<div class="row">
 						<div class="col-md-12">
@@ -317,11 +317,11 @@
 					<hr>
 					<div class="row">
 						<div class="col-md-12">
-							<h4>Selling Details</h4>
+							<!-- <h4>Selling Details</h4> -->
 							<div class="row">
 								<div class="col-md-4">
 									<div class="form-group">
-										<label>Format <span>*</span></label>
+										<label>Specifications <span>*</span></label>
 										<select class="form-control">
 											<option>Actual-style</option>
 											<option>Fixed price</option>
@@ -433,11 +433,11 @@
 								</div>
 							</div>
 
-							<br>
+							<!-- <br>
 							<div class="row">
 								<div class="col-md-12">
 									<label>Private listing</label><br>
-									<input type="checkbox" name=""><small> &nbsp; &nbsp; Allow buyers to remain anonymous to other Expesos users</small>
+									<input type="checkbox" name=""><small> &nbsp; &nbsp; Allow buyers to remain anonymous to other Xpesos users</small>
 								</div>
 							</div>
 							<br>
@@ -446,12 +446,12 @@
 									<label>Make a donation</label><br>
 									<input type="checkbox" name=""><small> &nbsp; &nbsp; Donate a percentage of your sale to the charity of your choice and we'll give you a credit on basic selling fees for sold items</small>
 								</div>
-							</div>
+							</div> -->
 							<br>
 							<div class="row">
 								<div class="col-md-12">
 									<label>Payment options</label><br>
-									<input type="checkbox" name=""><small> &nbsp; &nbsp; Payments managed by Expesos</small><br>
+									<input type="checkbox" name=""><small> &nbsp; &nbsp; Payments managed by Xpesos</small><br>
 									<input type="checkbox" name=""><small> &nbsp; &nbsp; Require immediate payment with Buy It Now</small>
 								</div>
 							</div>
@@ -460,7 +460,7 @@
 								<div class="col-md-2">
 									<div class="form-group">
 										<br>
-										<label>Sell Tax</label>
+										<label>Tax</label>
 										<input type="text" class="form-control" />
 										<input type="checkbox" name=""><small> &nbsp; &nbsp; Also apply to shipping and handling costs</small>
 									</div>
@@ -631,7 +631,7 @@
 								<div class="col-md-12">
 									<small>If your item sells, you will be charged a final <a href="#" style="text-decoration: underline;">value fee.</a></small><br>
 									<small>Funds from your sales may be unavailable and show as pending for a period of time. <a href="#" style="text-decoration: underline;">Learn more</a></small><br>
-									<small>By selecting List item, you agree to pay the above fees; accept the Expesos <a href="#" style="text-decoration: underline;">User Agreement</a>, <a href="#" style="text-decoration: underline;">Payments Terms of Use</a> and <a href="#" style="text-decoration: underline;">Marketing Terms of Service</a>; acknowledge reading the <a href="#" style="text-decoration: underline;">User Privacy Notice</a>; and assume full responsibility for the item offered and the content of your listing.</small><br>
+									<small>By selecting List item, you agree to pay the above fees; accept the Xpesos <a href="#" style="text-decoration: underline;">User Agreement</a>, <a href="#" style="text-decoration: underline;">Payments Terms of Use</a> and <a href="#" style="text-decoration: underline;">Marketing Terms of Service</a>; acknowledge reading the <a href="#" style="text-decoration: underline;">User Privacy Notice</a>; and assume full responsibility for the item offered and the content of your listing.</small><br>
 								</div>
 							</div>
 							<hr>
