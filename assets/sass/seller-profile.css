@@ -491,6 +491,13 @@ ul.checkbox-ul li{
 	padding: 15px;
 }
 @media screen and (max-width: 991px){
+	.action-own-btn{
+		background-color: #f6f6f6;
+	    border-left-color: #3c8dbc;
+	    color: #444;
+	    box-shadow: none!important;
+	}
+
 	.arrow.active-arrow{
 		display: block;
 	}

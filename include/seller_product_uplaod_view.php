@@ -1,4 +1,13 @@
-<!-- page header start -->
+<style type="text/css">
+    #more {display: none;}
+    #readMore{
+        background: transparent;
+        font-weight: bold;
+        font-size: 16px;
+        color: red;
+    }
+</style>
+    <!---page header start -->
     <section class="page-header">
         <div class="container">
             <div class="page-linker border-0">
@@ -15,7 +24,7 @@
     <!-- page header ends  -->
 
     <!-- product details start -->
-    <section class="product-details upload-view pt-3 pb-5">
+    <section class="product-details upload-view pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
@@ -103,6 +112,11 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+
+                                                        <div class="sell-similar-item">
+                                                            <button class="btn btn-info mr-0 mr-sm-1 mb-2 mb-sm-0"> Sell similar item</button>
+                                                        </div>
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -193,111 +207,260 @@
                                                         <li class="nav-item" role="presentation">
                                                           <a class="nav-link" id="specification-tab" data-toggle="tab" href="#specification" role="tab" aria-controls="specification" aria-selected="false">Specification</a>
                                                         </li>
-
+                                                        <li class="nav-item" role="presentation">
+                                                          <a class="nav-link" id="reviews-tab" data-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Reviews</a>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <a class="nav-link" id="policy-tab" data-toggle="tab" href="#policy" role="tab" aria-controls="policy" aria-selected="false">Store Policy</a>
+                                                        </li>
                                                     </ul>
                                                     <div class="tab-content min-height" id="myTabContent">
                                                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                                                             <div class="tabcontent">
                                                                 <div class="post-text">
-                                                                    <p class="small discip-head text-right">Expesos Item number: 55122568444</p>
-                                                                    <p class="small discip-head">Seller assums all responsibililty for this listing</p>
-                                                                    <div class="listing-descript-content">
-                                                                        <h4>Item specifics</h4>
-                                                                        <p>ISBN: 9780552366444</p>
+                                                                    <div class="small">
+                                                                        Used: Item has been tested and working perfectly<br><br>
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection<br><br>
+
+                                                                        Up to 2,000 Mbps on each port<br><br>
+
+                                                                        Integrates 10/100/1000 Mbps within a network<br><br>
+
+                                                                        Provides auto uplink <span id="dots">...</span><span id="more">functionality on all eight RJ-45 ports<br><br>
+
+                                                                        Used: Item has been tested and working perfectly<br><br>
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection
+
+                                                                        Up to 2,000 Mbps on each port
+
+                                                                        Integrates 10/100/1000 Mbps within a network<br><br>
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
+
+                                                                        Used: Item has been tested and working perfectly
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection
+
+                                                                        Up to 2,000 Mbps on each port
+
+                                                                        Integrates 10/100/1000 Mbps within a network<br><br>
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
+
+                                                                        Used: Item has been tested and working perfectly
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection
+
+                                                                        Up to 2,000 Mbps on each port<br><br>
+
+                                                                        Integrates 10/100/1000 Mbps within a network
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
+
+                                                                        Used: Item has been tested and working perfectly
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection
+
+                                                                        Up to 2,000 Mbps on each port
+
+                                                                        Integrates 10/100/1000 Mbps within a network<br><br>
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
+
+                                                                        Used: Item has been tested and working perfectly
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection
+
+                                                                        Up to 2,000 Mbps on each port
+
+                                                                        Integrates 10/100/1000 Mbps within a network<br><br>
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
+
+                                                                        Used: Item has been tested and working perfectly
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection
+
+                                                                        Up to 2,000 Mbps on each port
+
+                                                                        Integrates 10/100/1000 Mbps within a network
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
+
+                                                                        Used: Item has been tested and working perfectly
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection<br><br>
+
+                                                                        Up to 2,000 Mbps on each port
+
+                                                                        Integrates 10/100/1000 Mbps within a network
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
+
+                                                                        Used: Item has been tested and working perfectly
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection<br><br>
+
+                                                                        Up to 2,000 Mbps on each port
+
+                                                                        Integrates 10/100/1000 Mbps within a network
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports</span>
+                                                                        <button onclick="myFunction()" id="readMore">Read more</button>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="tab-pane fade" id="specification" role="tabpanel" aria-labelledby="specification-tab">
                                                             <div class="tabcontent">
-                                                                <p class="small discip-head">Seller assums all responsibililty for this listing</p>
-                                                                <div class="area">
-                                                                    <h5><b>Shipping and handling</b></h5>
-                                                                    <p style="margin: 0px;">Item location: <b>Dagenham, United Kingdom</b>
-                                                                    <p style="margin: 0px;">Shipping to: <b>United States</b></p>
-                                                                    <table class="table table-sm">
-                                                                      <thead>
-                                                                        <tr>
-                                                                          <th scope="col">Shipping and handling</th>
-                                                                          <th scope="col">To</th>
-                                                                          <th scope="col">Service</th>
-                                                                          <th scope="col">Delivery</th>
-                                                                        </tr>
-                                                                      </thead>
-                                                                      <tbody>
-                                                                        <tr>
-                                                                          <td>--</td>
-                                                                          <td>United Kingdom</td>
-                                                                          <td>--</td>
-                                                                          <td>--</td>
-                                                                        </tr>
-                                                                      </tbody>
-                                                                    </table>
-                                                                    <hr>
-                                                                    <p style="font-size: 12px;"><b>*</b> <a href="#" style="text-decoration: underline;">Estimated delivery dates</a>- opens in a new window or tab include seller's handling time, origin ZIP Code, destination ZIP Code and time of acceptance and will depend on shipping service selected and receipt of cleared payment. Delivery times may vary, especially during peak periods.</p>
-                                                                    <table class="table table-sm">
-                                                                      <thead>
-                                                                        <tr>
-                                                                          <th scope="col">Taxes</th>
-                                                                        </tr>
-                                                                      </thead>
-                                                                      <tbody>
-                                                                        <tr>
-                                                                          <td><p style="font-size: 12px;">Taxes may be applicable at checkout.  <a href="#" style="text-decoration: underline;">Learn more</a></p></td>
-                                                                        </tr>
-                                                                      </tbody>
+                                                                <div class="post-text">
+                                                                    <h4>Product specification in the food industry: what you need to know</h4>
+                                                                    <p>
+                                                                        <strong>Purpose of a product specification document</strong>
+                                                                        The specification documents is useful on all stages of the production process, on the suppliers and producer sides as well as on the buying 
+                                                                        company side which can use this document as a quality standard required at the delivery.  In some industries such as in the food industry, the 
+                                                                        number of protocoles and documents required during the production process can quickly skyrocket to guarantee food safety and a higher food quality. 
+                                                                        To meet this goal and standard, the food product and raw material specifications sheets primarly inform about the ingredients of each product and its condition of production.
+                                                                    </p>
+                                                                </div>
+                                                                <div class="food-specification">
+                                                                    <table>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <th>weight</th>
+                                                                                <td>2.5 KL</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th>Dimensions</th>
+                                                                                <td>90 x 60 x 90 cm</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th>Size</th>
+                                                                                <td>One Size Fits all</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th>Color</th>
+                                                                                <td>Hot Pink &amp; Brown True Wiht Gold</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th>Ex Date</th>
+                                                                                <td>Make to Three Days</td>
+                                                                            </tr>
+                                                                        </tbody>
                                                                     </table>
                                                                 </div>
-                                                                <div class="area">
-                                                                    <h5><b>Return policy</b></h5>
-                                                                    <table class="table table-sm">
-                                                                      <thead>
-                                                                        <tr>
-                                                                          <th scope="col">Return policy details</th>
-                                                                        </tr>
-                                                                      </thead>
-                                                                      <tbody>
-                                                                        <tr>
-                                                                          <td><p style="font-size: 12px;">Seller does not offer returns.</p></td>
-                                                                        </tr>
-                                                                      </tbody>
-                                                                    </table>
-                                                                    <hr>
-                                                                    <p style="font-size: 12px;">Estimated delivery dates Refer to <a href="#" style="text-decoration: underline;">Expesos Return policy</a> for more details. You are covered by the <a href="#" style="text-decoration: underline;">Expesos Money Back Guarantee</a> if you receive an item that is not as described in the listing.</p>
-                                                                    
-                                                                </div>
-                                                                <div class="area">
-                                                                    <h5><b>Payment details</b></h5>
-                                                                    <table class="table table-sm">
-                                                                      <thead>
-                                                                        <tr>
-                                                                          <th scope="col">Payment methods</th>
-                                                                        </tr>
-                                                                      </thead>
-                                                                      <tbody>
-                                                                        <tr>
-                                                                          <td>
-                                                                            <footer style="padding: 20px 12px; background: #fdf0db;">
-                                                                                <div class="help">
-                                                                                    <div class="payment-card">
-                                                                                        <ul class="card-list">
-                                                                                            <li><a href="#"><img src="assets/images/footer/02.png" alt=""></a></li>
-                                                                                            <li><a href="#"><img src="assets/images/footer/01.png" alt=""></a></li>
-                                                                                            <li><a href="#"><img src="assets/images/footer/03.png" alt=""></a></li>
-                                                                                            <li><a href="#"><img src="assets/images/footer/04.png" alt=""></a></li>
-                                                                                            <li><a href="#"><img src="assets/images/footer/05.png" alt=""></a></li>
-                                                                                            <li><a href="#"><img src="assets/images/footer/06.png" alt=""></a></li>
-                                                                                        </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+                                                            <div class="tabcontent">
+                                                                <div class="row">
+                                                                    <div class="col-md-6 col-12">
+                                                                        <div class="review-list">
+                                                                            <ul>
+                                                                                <li>
+                                                                                    <div class="rating">
+                                                                                        <span><i class="fa fa-star"></i></span>
+                                                                                        <span><i class="fa fa-star"></i></span>
+                                                                                        <span><i class="fa fa-star"></i></span>
+                                                                                        <span><i class="fa fa-star"></i></span>
+                                                                                        <span><i class="fa fa-star"></i></span>
+                                                                                        <span><i class="fa fa-star-half"></i></span>
                                                                                     </div>
-                                                                                </div>
-                                                                            </footer>
-
-                                                                          </td>
-                                                                        </tr>
-                                                                      </tbody>
-                                                                    </table>
-                                                                    
-                                                                    
+                                                                                    <p>
+                                                                                        This food is very testi. I really like that tis yor resturent item.
+                                                                                        I think this is very good for yor resturant and I wishe Yours better
+                                                                                        future.so I will give the reating 5 star.
+                                                                                    </p>
+                                                                                    <h5>I'm Yeasin</h5>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <div class="rating">
+                                                                                        <span><i class="fa fa-star"></i></span>
+                                                                                        <span><i class="fa fa-star"></i></span>
+                                                                                        <span><i class="fa fa-star"></i></span>
+                                                                                        <span><i class="fa fa-star-half"></i></span>
+                                                                                        <span><i class="fa fa-star-half"></i></span>
+                                                                                    </div>
+                                                                                    <p>
+                                                                                        This food is very testi. I really like that tis yor resturent item.
+                                                                                        I think this is very good for yor resturant and I wishe Yours better
+                                                                                        future.so I will give the reating 5 star.
+                                                                                    </p>
+                                                                                    <h5>I'm Roni khan</h5>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <div class="rating">
+                                                                                        <span><i class="fa fa-star"></i></span>
+                                                                                        <span><i class="fa fa-star"></i></span>
+                                                                                        <span><i class="fa fa-star-half"></i></span>
+                                                                                        <span><i class="fa fa-star-half"></i></span>
+                                                                                        <span><i class="fa fa-star-half"></i></span>
+                                                                                    </div>
+                                                                                    <p>
+                                                                                        This food is very testi. I really like that tis yor resturent item.
+                                                                                        I think this is very good for yor resturant and I wishe Yours better
+                                                                                        future.so I will give the reating 5 star.
+                                                                                    </p>
+                                                                                    <h5>I'm DI Nasim</h5>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6 col-12">
+                                                                        <div class="review-form">
+                                                                            <div class="comment-respos">
+                                                                                <h5>Add a review</h5>
+                                                                                <form action="method">
+                                                                                    <p class="comment-form-comment">
+                                                                                        <label id="rating">Your rating</label>
+                                                                                        <div class="stars">
+                                                                                            <input class="star star-5" id="star-5" type="radio" name="star" /> 
+                                                                                            <label class="star star-5" for="star-5"></label> 
+                                                                                            <input class="star star-4" id="star-4" type="radio" name="star" />
+                                                                                            <label class="star star-4" for="star-4"></label> 
+                                                                                            <input class="star star-3" id="star-3" type="radio" name="star" /> 
+                                                                                            <label class="star star-3" for="star-3"></label> 
+                                                                                            <input class="star star-2" id="star-2" type="radio" name="star" /> 
+                                                                                            <label class="star star-2" for="star-2"></label>
+                                                                                            <input class="star star-1" id="star-1" type="radio" name="star" />
+                                                                                            <label class="star star-1" for="star-1"></label>
+                                                                                        </div>
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="comment-form-comment">
+                                                                                        <label for="comment">Your review</label>
+                                                                                        <textarea name="comment" id="comment" cols="45" rows="8"></textarea>
+                                                                                    </p>
+                                                                                    <p class="comment-form-author">
+                                                                                        <label for="author">Name <span>*</span></label>
+                                                                                        <input type="text" class="form-control" id="author" name="author">
+                                                                                    </p>
+                                                                                    <p class="comment-form-email">
+                                                                                        <label for="email">Email <span>*</span></label>
+                                                                                        <input type="email" class="form-control" name="email" id="email">
+                                                                                    </p>
+                                                                                    <p class="form-submit">
+                                                                                        <button type="submit" class="btn"><span>Add review</span></button>
+                                                                                    </p>
+                                                                                </form>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="policy" role="tabpanel" aria-labelledby="policy-tab">
+                                                            <div class="tabcontent">
+                                                                <div class="post-text">
+                                                                    <h4>Cancellation / Return / Exchange Policy</h4>
+                                                                   <p>We offer a minimum of 18 day returns guarantee on all our items and 30 day return on eligible items. If you are not completely satisfied with your item you may return the items to the seller, within the stipulated return period for a refund (“money back guaranteed”). Please, ensure you obtain a proof of return postage as items being returned are the responsibility of the customer until the items reach the seller. Refunds will take approximately 5 – 7 working days for the process once the goods have arrived to the seller. Sometimes it might take up to 30 days but in rare cases if you paid using credit card but in exceptional cases. We always advise payments are made through PayPal.</p>
+                                                                    <p>Returned Items must be in their original packaging, and intact to avoid breakage in transit. . In the interest of hygiene, returns on earrings, cosmetics and underwear may not be accepted at any time. Swimwear may not be returned if the hygiene seal is broken.  We guarantee to refund unworn or unwashed items when you return it in re-sellable condition,.</p>
+                                                                    <div class="inner-text">
+                                                                        <h4>Non-Returnable Items</h4>
+                                                                        <p>We don’t accept returns for items such as food unless of course they’re faulty. Our website and catalogue clearly show which items are excluded. If you’re returning an electrical item, it must be unused and in its original sealed packaging.</p>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -314,8 +477,8 @@
               </div>
                 </div>
                 <div class="col-md-3">
-                    
-                    <div class="shop-confidence">
+
+                    <!-- <div class="shop-confidence">
                         <h3>Shop with confidence</h3>
                         <hr>
                         <div class="content">
@@ -323,13 +486,86 @@
                             <h5>Xpesos money back guraty</h5>
                             <p>Get the item your order or get your money back</p>
                         </div>
+                    </div> -->
+
+                    <div class="shipping-area">
+                        <ul class="mf-shipping-info">
+                            <li><i class="fa fa-globe" aria-hidden="true"></i> Shipping to Africa &amp; UK</li>
+                            <li><i class="fa fa-truck" aria-hidden="true"></i>Free 18-day return if eligible, so easy </li>
+                            <li><i class="fa fa-file-text-o" aria-hidden="true"></i>Supplier give bills for this product.</li>
+                            <li><i class="fa fa-credit-card" aria-hidden="true"></i>Pay online or when receiving goods</li>
+                        </ul>
                     </div>
 
                     <div class="seller-information">
                         <h5>Seller Information</h5>
                         <p class="seller-name">Company name (154 <i class="fa fa-star" aria-hidden="true"></i>)</p>
                         <p class="positive-reviw">100% positive review</p>
+                        <hr>
+                        <div class="action-area">
+                            <p><a href="#" ><i class="fa fa-heart" aria-hidden="true"></i> Save this seller</a></p>
+                            <p><a href="#">Contact seller</a></p>
+                            <p><a href="#">Visit Store</a></p>
+                            <p><a href="#">See others item</a></p>
+                            <hr>
+                            <small><a href="#">Stand out! Earn xpesos Badge</a></small>
+                        </div>
                     </div>
+                    
+                    <div id="custom_html-7" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><i class="fa fa-shopping-basket" aria-hidden="true"></i><span style="color: #000; padding-left: 10px">Sell on xpesos? </span><a href="vendor-registration.php">Register Now!</a></div></div>
+                    
+                    
+                    <section class="custom-section">
+                        <div class="card">
+                            <a href="product-view.php"><img class="card-img-top" src="./assets/images/Product-Page-Banner2.jpg" alt="mobile"></a>
+                        </div>
+                    </section>
+                    
+                    
+                    <section class="custom-section">
+                        <div class="card">
+                          <div class="card-header">
+                            Featured Products
+                          </div>
+
+                            <div class="custom-container">
+                                <div class="card">
+                                    <a href="product-details.php" class="link-featured-products">
+                                      <img class="card-img-top card-img-custom" src="./assets/images/s-l1600-7672-200x200.jpg" alt="Card image cap">
+                                      <div class="card-body less-size-bottom">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <span class="price"><span class="amount"><span class="woocommerce-Price-currencySymbol">£</span>16.37</span> </span>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="custom-container">
+                                <div class="card">
+                                    <a href="product-details.php" class="link-featured-products">
+                                      <img class="card-img-top card-img-custom" src="./assets/images/2.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <span class="price"><span class="amount"><span class="woocommerce-Price-currencySymbol">£</span>16.37</span> </span>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="custom-container">
+                                <div class="card">
+                                    <a href="product-details.php" class="link-featured-products">
+                                      <img class="card-img-top card-img-custom" src="./assets/images/3.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <span class="price"><span class="amount"><span class="woocommerce-Price-currencySymbol">£</span>16.37</span> </span>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     
                 </div>
             </div>
@@ -338,7 +574,289 @@
     </section>
     <!-- product details ends -->
 
+<section class="offered-product">
+        <div class="container">
+            <div class="section-wrapper">
+                <div class="flex-header">
+                    <h4>Related Products</h4>
+                </div>
+                <!-- Add arrow -->
+                <div class="arrow">
+                     <!-- Add Arrows -->
+                    <div class="offered-button-next next"><span><i class="fa fa-angle-right"></i></span></div>
+                    <div class="offered-button-prev prev"><span><i class="fa fa-angle-left"></i></span></div>
+                </div>
+                <div class="offered-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="product-details.php" class="swiper-a-link">
+                                <div class="post-item">
+                                    <div class="post-thumb">
+                                        <img src="assets/images/feature/21.jpg" alt="Electronic">
+                                    <div class="post-wish">
 
+                                    </div>
+                                    <div class="post-cart">
+                                        <div class="product-action-link-front">
+                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="post-text">  
+                                        <h6>charecter will be maximum 32</h6>
+                                        <div class="price-tag">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-now">$659.00</p>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-old">-$759.00</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <a href="product-details.php" class="swiper-a-link">
+                                <div class="post-item">
+                                    <div class="post-thumb">
+                                        <img src="assets/images/feature/64.jpg" alt="Electronic">
+                                    <div class="post-wish">
+
+                                    </div>
+                                    <div class="post-cart">
+                                        <div class="product-action-link-front">
+                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="post-text">  
+                                        <h6>charecter will be maximum 32</h6>
+                                        <div class="price-tag">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-now">$659.00</p>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-old">-$759.00</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <a href="product-details.php" class="swiper-a-link">
+                                <div class="post-item">
+                                    <div class="post-thumb">
+                                        <img src="assets/images/feature/65.jpg" alt="Electronic">
+                                    <div class="post-wish">
+
+                                    </div>
+                                    <div class="post-cart">
+                                        <div class="product-action-link-front">
+                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="post-text">  
+                                        <h6>charecter will be maximum 32</h6>
+                                        <div class="price-tag">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-now">$659.00</p>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-old">-$759.00</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <a href="product-details.php" class="swiper-a-link">
+                                <div class="post-item">
+                                    <div class="post-thumb">
+                                        <img src="assets/images/feature/66.jpg" alt="Electronic">
+                                    <div class="post-wish">
+
+                                    </div>
+                                    <div class="post-cart">
+                                        <div class="product-action-link-front">
+                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="post-text">  
+                                        <h6>charecter will be maximum 32</h6>
+                                        <div class="price-tag">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-now">$659.00</p>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-old">-$759.00</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <a href="product-details.php" class="swiper-a-link">
+                                <div class="post-item">
+                                    <div class="post-thumb">
+                                        <img src="assets/images/feature/67.jpg" alt="Electronic">
+                                    <div class="post-wish">
+
+                                    </div>
+                                    <div class="post-cart">
+                                        <div class="product-action-link-front">
+                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="post-text">  
+                                        <h6>charecter will be maximum 32</h6>
+                                        <div class="price-tag">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-now">$659.00</p>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-old">-$759.00</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <a href="product-details.php" class="swiper-a-link">
+                                <div class="post-item">
+                                    <div class="post-thumb">
+                                        <img src="assets/images/feature/68.jpg" alt="Electronic">
+                                    <div class="post-wish">
+
+                                    </div>
+                                    <div class="post-cart">
+                                        <div class="product-action-link-front">
+                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="post-text">  
+                                        <h6>charecter will be maximum 32</h6>
+                                        <div class="price-tag">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-now">$659.00</p>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-old">-$759.00</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <a href="product-details.php" class="swiper-a-link">
+                                <div class="post-item">
+                                    <div class="post-thumb">
+                                        <img src="assets/images/feature/69.jpg" alt="Electronic">
+                                    <div class="post-wish">
+
+                                    </div>
+                                    <div class="post-cart">
+                                        <div class="product-action-link-front">
+                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="post-text">  
+                                        <h6>charecter will be maximum 32</h6>
+                                        <div class="price-tag">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-now">$659.00</p>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-old">-$759.00</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <a href="product-details.php" class="swiper-a-link">
+                                <div class="post-item">
+                                    <div class="post-thumb">
+                                        <img src="assets/images/feature/70.jpg" alt="Electronic">
+                                    <div class="post-wish">
+
+                                    </div>
+                                    <div class="post-cart">
+                                        <div class="product-action-link-front">
+                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="post-text">  
+                                        <h6>charecter will be maximum 32</h6>
+                                        <div class="price-tag">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-now">$659.00</p>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <p class="price-old">-$759.00</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Seller modal start -->
     <div class="modal fade" id="contactSeller" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
@@ -381,4 +899,21 @@
             </div>
         </div>
     </div>
-    <!-- Seller modal ends  -->
+    <!-- Seller modal ends--->
+    <script type="text/javascript">
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("readMore");
+
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+          }
+        }
+    </script>

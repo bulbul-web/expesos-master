@@ -1,4 +1,13 @@
-<!--page header start -->
+<style type="text/css">
+    #more {display: none;}
+    #readMore{
+        background: transparent;
+        font-weight: bold;
+        font-size: 16px;
+        color: red;
+    }
+</style>
+    <!---page header start -->
     <section class="page-header">
         <div class="container">
             <div class="page-linker border-0">
@@ -285,76 +294,97 @@
                                                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                                                             <div class="tabcontent">
                                                                 <div class="post-text">
-                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
-                                                                    <div class="mt-4">
-                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
-                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
-                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
-                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
-                                                                    </div>
-                                                                    <div class="post-text">
-                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
-                                                                    <div class="mt-4">
-                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
-                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
-                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
-                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
-                                                                    </div>
-                                                                    <div class="post-text">
-                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
-                                                                    <div class="mt-4">
-                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
-                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
-                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
-                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
-                                                                    </div>
-                                                                    <div class="post-text">
-                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
-                                                                    <div class="mt-4">
-                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
-                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
-                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
-                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
-                                                                    </div>
-                                                                    <div class="post-text">
-                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
-                                                                    <div class="mt-4">
-                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
-                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
-                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
-                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
-                                                                    </div>
-                                                                    <div class="post-text">
-                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
-                                                                    <div class="mt-4">
-                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
-                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
-                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
-                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
-                                                                    </div>
-                                                                    <div class="post-text">
-                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
-                                                                    <div class="mt-4">
-                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
-                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
-                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
-                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
-                                                                    </div>
-                                                                    <div class="post-text">
-                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
-                                                                    <div class="mt-4">
-                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
-                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
-                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
-                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
-                                                                    </div>
-                                                                    <div class="post-text">
-                                                                    <p class="small">Used: Item has been tested and working perfectly</p>
-                                                                    <div class="mt-4">
-                                                                        <p class="small">High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection</p>
-                                                                        <p class="small">Up to 2,000 Mbps on each port</p>
-                                                                        <p class="small">Integrates 10/100/1000 Mbps within a network</p>
-                                                                        <p class="small">Provides auto uplink functionality on all eight RJ-45 ports</p>
+                                                                    <div class="small">
+                                                                        Used: Item has been tested and working perfectly<br><br>
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection<br><br>
+
+                                                                        Up to 2,000 Mbps on each port<br><br>
+
+                                                                        Integrates 10/100/1000 Mbps within a network<br><br>
+
+                                                                        Provides auto uplink <span id="dots">...</span><span id="more">functionality on all eight RJ-45 ports<br><br>
+
+                                                                        Used: Item has been tested and working perfectly<br><br>
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection
+
+                                                                        Up to 2,000 Mbps on each port
+
+                                                                        Integrates 10/100/1000 Mbps within a network<br><br>
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
+
+                                                                        Used: Item has been tested and working perfectly
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection
+
+                                                                        Up to 2,000 Mbps on each port
+
+                                                                        Integrates 10/100/1000 Mbps within a network<br><br>
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
+
+                                                                        Used: Item has been tested and working perfectly
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection
+
+                                                                        Up to 2,000 Mbps on each port<br><br>
+
+                                                                        Integrates 10/100/1000 Mbps within a network
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
+
+                                                                        Used: Item has been tested and working perfectly
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection
+
+                                                                        Up to 2,000 Mbps on each port
+
+                                                                        Integrates 10/100/1000 Mbps within a network<br><br>
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
+
+                                                                        Used: Item has been tested and working perfectly
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection
+
+                                                                        Up to 2,000 Mbps on each port
+
+                                                                        Integrates 10/100/1000 Mbps within a network<br><br>
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
+
+                                                                        Used: Item has been tested and working perfectly
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection
+
+                                                                        Up to 2,000 Mbps on each port
+
+                                                                        Integrates 10/100/1000 Mbps within a network
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
+
+                                                                        Used: Item has been tested and working perfectly
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection<br><br>
+
+                                                                        Up to 2,000 Mbps on each port
+
+                                                                        Integrates 10/100/1000 Mbps within a network
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
+
+                                                                        Used: Item has been tested and working perfectly
+
+                                                                        High-speed, auto-switching 10/100/1,000 Mbps Ethernet connection<br><br>
+
+                                                                        Up to 2,000 Mbps on each port
+
+                                                                        Integrates 10/100/1000 Mbps within a network
+
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports</span>
+                                                                        <button onclick="myFunction()" id="readMore">Read more</button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -946,3 +976,20 @@
         </div>
     </div>
     <!-- Seller modal ends--->
+    <script type="text/javascript">
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("readMore");
+
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+          }
+        }
+    </script>
