@@ -578,7 +578,7 @@
                                 <div class="card">
                                     <a href="product-details.php" class="link-featured-products">
                                       <img class="card-img-top card-img-custom" src="./assets/images/s-l1600-7672-200x200.jpg" alt="Card image cap">
-                                      <div class="card-body">
+                                      <div class="card-body less-size-bottom">
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                           <span class="price"><span class="amount"><span class="woocommerce-Price-currencySymbol">£</span>16.37</span> </span>
                                       </div>
@@ -945,4 +945,4 @@
             </div>
         </div>
     </div>
-    <!-- Seller modal ends 
+    <!-- Seller modal ends--->

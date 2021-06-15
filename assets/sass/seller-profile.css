@@ -508,6 +508,17 @@ ul.checkbox-ul li{
 	}
 }
 @media screen and (max-width: 439px){
+	.btn-group.btn-group-own-mail{
+		margin-top: 10px;
+	}
+	.special-product {
+	    padding: 0px 0;
+	    margin-bottom: -30px;
+	}
+	.less-size-bottom{
+		padding-bottom: 0px;
+	    margin-bottom: -26px;
+	}
 	.own-nav ul li.float-left-li-mail{
 		float: left;
 	}
