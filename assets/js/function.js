@@ -327,6 +327,58 @@
         },
     });
 
+    // customer-also-view
+    var swiper = new Swiper('.customer-also-view', {
+        slidesPerView: 2.5,
+        spaceBetween: 15,
+        autoplay: false,
+        loop: false,
+        navigation: {
+            nextEl: '.offered-button-next',
+            prevEl: '.offered-button-prev',
+        },
+        breakpoints: {
+            575: {
+                slidesPerView: 1.5,
+            },
+            640: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 3,
+            },
+            1024: {
+              slidesPerView: 4.5,
+            },
+        },
+    });
+
+    // you-may-also-like
+    var swiper = new Swiper('.you-may-also-like', {
+        slidesPerView: 2.5,
+        spaceBetween: 15,
+        autoplay: false,
+        loop: false,
+        navigation: {
+            nextEl: '.offered-button-next',
+            prevEl: '.offered-button-prev',
+        },
+        breakpoints: {
+            575: {
+                slidesPerView: 1.5,
+            },
+            640: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 3,
+            },
+            1024: {
+              slidesPerView: 4.5,
+            },
+        },
+    });
+
     // feedback-slider
     var swiper = new Swiper('.feedback-slider', {
         slidesPerView: 1,

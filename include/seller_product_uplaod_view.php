@@ -1,14 +1,5 @@
-<style type="text/css">
-    #more {display: none;}
-    #readMore{
-        background: transparent;
-        font-weight: bold;
-        font-size: 16px;
-        color: red;
-    }
-</style>
     <!---page header start -->
-    <section class="page-header">
+   <!--  <section class="page-header">
         <div class="container">
             <div class="page-linker border-0">
                 <ul class="p-0">
@@ -20,7 +11,7 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- page header ends  -->
 
     <!-- product details start -->
@@ -149,8 +140,38 @@
                                                                     <input type="text" class="form-control" />
                                                                     <span>Enter or more</span>
                                                                 </div>
+                                                                <div class="product-details-input form-group">
+                                                                    <label class="font-weight-bold">Color :</label>
+                                                                    <select class="form-control" placeholder="Email Address" required="">
+                                                                        <option disabled selected>Choose an option</option>
+                                                                        <option>Blue</option>
+                                                                        <option>Green</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="product-details-input form-group">
+                                                                    <label class="font-weight-bold">Size :</label>
+                                                                    <select class="form-control" placeholder="Email Address" required="">
+                                                                        <option disabled selected>Choose an option</option>
+                                                                        <option>L</option>
+                                                                        <option>M</option>
+                                                                    </select>
+                                                                </div>
                                                             </div>
                                                             <div class="col-md-6">
+                                                                
+                                                                <div class="product-details-input form-group">
+                                                                    <label class="font-weight-bold">Quantity :</label>
+                                                                    <div class="input-group btn-block qntity-btn-cstom" style="max-width: 140px; left: -10px;">
+                                                                        <div class="cart-button p-0">
+                                                                            <div class="cart-plus-minus"><div class="dec qtybutton">-</div><div class="dec qtybutton">-</div><div class="dec qtybutton">-</div>
+                                                                                <div class="dec qtybutton">-</div>
+                                                                                <input class="cart-plus-minus-box" type="text" name="qtybutton" value="2">
+                                                                                <div class="inc qtybutton">+</div>
+                                                                            <div class="inc qtybutton">+</div><div class="inc qtybutton">+</div><div class="inc qtybutton">+</div></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
                                                                 <div class="product-details-input form-group">
                                                                     <label class="font-weight-bold">[0 BID]</label>
                                                                 </div>
@@ -214,7 +235,7 @@
                                                             <a class="nav-link" id="policy-tab" data-toggle="tab" href="#policy" role="tab" aria-controls="policy" aria-selected="false">Store Policy</a>
                                                         </li>
                                                     </ul>
-                                                    <div class="tab-content min-height" id="myTabContent">
+                                                    <div class="tab-content min-height-seller-product-view" id="myTabContent">
                                                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                                                             <div class="tabcontent">
                                                                 <div class="post-text">
@@ -309,8 +330,585 @@
 
                                                                         Provides auto uplink functionality on all eight RJ-45 ports</span>
                                                                         <button onclick="myFunction()" id="readMore">Read more</button>
+
                                                                     </div>
                                                                 </div>
+
+                                                                <div id="tabProductSection">
+                                                                    
+                                                                    <section class="offered-product">
+                                                                        <div class="container">
+                                                                            <div class="section-wrapper">
+                                                                                <div class="flex-header">
+                                                                                    <h4>Customer also view</h4>
+                                                                                </div>
+                                                                                <!-- Add arrow -->
+                                                                                <div class="arrow">
+                                                                                     <!-- Add Arrows -->
+                                                                                    <div class="offered-button-next next"><span><i class="fa fa-angle-right"></i></span></div>
+                                                                                    <div class="offered-button-prev prev"><span><i class="fa fa-angle-left"></i></span></div>
+                                                                                </div>
+                                                                                <div class="customer-also-view">
+                                                                                    <div class="swiper-wrapper">
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/21.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/64.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/65.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/66.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/67.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/68.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/69.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/70.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+
+
+                                                                    <section class="offered-product">
+                                                                        <div class="container">
+                                                                            <div class="section-wrapper">
+                                                                                <div class="flex-header">
+                                                                                    <h4>You may also like</h4>
+                                                                                </div>
+                                                                                <!-- Add arrow -->
+                                                                                <div class="arrow">
+                                                                                     <!-- Add Arrows -->
+                                                                                    <div class="offered-button-next next"><span><i class="fa fa-angle-right"></i></span></div>
+                                                                                    <div class="offered-button-prev prev"><span><i class="fa fa-angle-left"></i></span></div>
+                                                                                </div>
+                                                                                <div class="you-may-also-like">
+                                                                                    <div class="swiper-wrapper">
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/21.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/64.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/65.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/66.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/67.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/68.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/69.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="product-details.php" class="swiper-a-link">
+                                                                                                <div class="post-item">
+                                                                                                    <div class="post-thumb">
+                                                                                                        <img src="assets/images/feature/70.jpg" alt="Electronic">
+                                                                                                    <div class="post-wish">
+
+                                                                                                    </div>
+                                                                                                    <div class="post-cart">
+                                                                                                        <div class="product-action-link-front">
+                                                                                                            <a class="view-modal link" href="product-details.php"><i class="fa fa-eye"></i></a>
+                                                                                                            <a class="link" href="#"><i class="fa fa-heart"></i></a>
+                                                                                                            <a class="link" href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    </div>
+                                                                                                    <div class="post-text">  
+                                                                                                        <h6>charecter will be maximum 32</h6>
+                                                                                                        <div class="price-tag">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-now">$659.00</p>
+                                                                                                                </div>
+                                                                                                                <div class="col-md-6 col-6">
+                                                                                                                    <p class="price-old">-$759.00</p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+
+
+                                                                </div><!---tab-product-section---->
+
+
                                                             </div>
                                                         </div>
                                                         <div class="tab-pane fade" id="specification" role="tabpanel" aria-labelledby="specification-tab">
@@ -905,15 +1503,19 @@
           var dots = document.getElementById("dots");
           var moreText = document.getElementById("more");
           var btnText = document.getElementById("readMore");
+          var tabProductSection = document.getElementById("tabProductSection");
+
 
           if (dots.style.display === "none") {
             dots.style.display = "inline";
             btnText.innerHTML = "Read more";
             moreText.style.display = "none";
+            tabProductSection.style.marginTop = "500px";
           } else {
             dots.style.display = "none";
             btnText.innerHTML = "Read less";
             moreText.style.display = "inline";
+            tabProductSection.style.marginTop = "5px";
           }
         }
     </script>
