@@ -417,12 +417,12 @@ ul.checkbox-ul li{
 	color: #EF9B0F;
 }
 .min-height#myTabContent {
-    height: 1372px;
+    height: 714px;
     overflow-x: hidden;
     overflow-y: auto;
 }
 .min-height-seller-product-view#myTabContent {
-    height: 1524px;
+    height: 764px;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -506,12 +506,23 @@ ul.mf-shipping-info{
     font-size: 16px;
     color: red;
 }
+.offered-product{
+	background-color: white;
+}
+
 #tabProductSection{
-	margin-top: 500px;
+	margin-top: 20px;
 }
+
 #tabProductSectionDetails{
-	margin-top: 440px;
+	margin-top: 20px;
 }
+.min-height#myTabContent{
+	min-height: auto;
+}
+/*.pb-5 {
+    padding-bottom: 0px!important;
+}*/
 @media screen and (max-width: 991px){
 	.action-own-btn{
 		background-color: #f6f6f6;
