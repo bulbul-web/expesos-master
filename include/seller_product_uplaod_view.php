@@ -248,7 +248,7 @@
 
                                                                         Integrates 10/100/1000 Mbps within a network<br><br>
 
-                                                                        Provides auto uplink <span id="dots">...</span><span id="more">functionality on all eight RJ-45 ports<br><br>
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports<br><br>
 
                                                                         Used: Item has been tested and working perfectly<br><br>
 
@@ -328,8 +328,7 @@
 
                                                                         Integrates 10/100/1000 Mbps within a network
 
-                                                                        Provides auto uplink functionality on all eight RJ-45 ports</span>
-                                                                        <button onclick="myFunction()" id="readMore">Read more</button>
+                                                                        Provides auto uplink functionality on all eight RJ-45 ports
 
                                                                     </div>
                                                                 </div>
